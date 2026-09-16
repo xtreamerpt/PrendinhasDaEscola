@@ -1,0 +1,44 @@
+name: Monitor Vacantes Pendentes
+
+on:
+  schedule:
+    # Corre a cada 5 minutos. Nota: o GitHub Actions não garante o horário
+    # exato — em repositórios com pouca atividade, ou em períodos de
+    # carga elevada no GitHub, a execução pode atrasar-se alguns minutos.
+    - cron: '*/5 * * * *'
+  workflow_dispatch: {}   # permite correr manualmente a partir do separador "Actions"
+
+permissions:
+  contents: write   # necessário para o workflow poder fazer commit do state.json
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências
+        run: pip install requests beautifulsoup4
+
+      - name: Executar script de monitorização
+        env:
+          SMTP_SERVER: smtp.gmail.com
+          SMTP_PORT: 465
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: python vacantes_monitor.py
+
+      - name: Guardar estado atualizado no repositório
+        run: |
+          git config user.name "vacantes-bot"
+          git config user.email "actions@github.com"
+          git add state.json current_listings.txt debug_last_response.html
+          git diff --staged --quiet || git commit -m "Atualizar listagens [skip ci]"
+          git push
