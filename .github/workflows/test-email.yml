@@ -1,0 +1,25 @@
+name: Testar Envio de Email
+
+on:
+  workflow_dispatch: {}   # só corre quando clicas "Run workflow", nunca sozinho
+
+jobs:
+  test-email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Enviar email de teste
+        env:
+          SMTP_SERVER: smtp.gmail.com
+          SMTP_PORT: 465
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: python test_email.py
