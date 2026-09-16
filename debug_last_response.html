@@ -1,0 +1,3160 @@
+
+
+
+
+  
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="gl">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="gl" />
+    <meta name="robots" content="index, nofollow" />
+    <meta name="title" content="substitutoslistas" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+    <meta name="description" content="Listas públicas de vacantes e substitucións" />
+    <meta name="author" content='Consellería de Educación, Ciencia, Universidades e Formación Profesional' />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	
+    <link rel="shortcut icon" href='https://recursosweb.edu.xunta.gal/recursosweb/imaxes/cabeceira/user-image-mini.png' type="image/x-icon">
+    
+    <!-- TITULO -->
+    
+    <title>
+    
+        
+        
+        Vacantes pendentes - substitutoslistas
+        
+        
+    
+    </title>
+		
+	
+	<script type="text/javascript">
+		menuActivo = 'Vacantespendentes';					
+	</script>
+	
+	<script type="text/javascript">
+		pageLoader = 'si';					
+	</script>
+  	<!-- HEADER -->
+	
+
+
+
+
+<link charset="UTF-8" href="https://recursosweb.edu.xunta.gal/recursosweb/estilos/principal/glyphicons/glyphicons.css" rel="stylesheet" type="text/css"/>
+<link charset="UTF-8" href="https://recursosweb.edu.xunta.gal/recursosweb/estilos/principal/font-awesome-4.6.3/font-awesome.css" rel="stylesheet" type="text/css"/>
+<link charset="UTF-8" href="https://recursosweb.edu.xunta.gal/recursosweb/estilos/principal/estilosMaquetaAmtega.css" rel="stylesheet" type="text/css"/>
+
+<script charset="UTF-8" src="https://recursosweb.edu.xunta.gal/recursosweb/scripts/jquery.min.js" type="text/javascript"></script>
+<script charset="UTF-8" src="https://recursosweb.edu.xunta.gal/recursosweb/scripts/animacions.js" type="text/javascript"></script>
+<script charset="UTF-8" src="https://recursosweb.edu.xunta.gal/recursosweb/scripts/menu-edu-2.0.0/menu-edu.js" type="text/javascript"></script>
+
+
+<script charset="UTF-8" src="https://recursosweb.edu.xunta.gal/recursosweb/scripts/bowser-1.8.1/bowser.js" type="text/javascript"></script>
+<script charset="UTF-8" src="https://recursosweb.edu.xunta.gal/recursosweb/scripts/support.js" type="text/javascript"></script>
+
+<!-- ********************************************** -->
+<!--            Funcionalidades comúns              -->
+<!-- ********************************************** -->
+
+<!--
+	/*****************************************************************************\
+	Nesta paxina se incluen as funcionalidades comuns para:
+		Estilos para a visualizacion correcta en IE 6 e 7
+		Visualizacion do evento onFocus no IE 7
+		Activa a visualizacion dos divs "js" no caso de haber javascript
+		Definición de bordes estandar para navegadores distintos de IE
+	/*****************************************************************************\
+-->
+<!-- Visualizacion correcta do div de mensaxes e botóns link en ie 8-->
+
+<!--[if IE 8]>
+	<style>
+		a.botazul, 
+		a.botdourado{
+			padding: 0.19em;
+		}			
+	</style>
+<![endif]-->
+
+<!-- Visualizacion correcta do div de mensaxes e botóns link en ie6 e 7-->
+
+<!--[if lte IE 7]>
+	<style>
+		a.botazul, 
+		a.botdourado{
+			display:inline-block;
+			padding: 0.32em;
+		}		
+	</style>
+<![endif]-->
+
+<!-- Visualizacion correcta de combos -->
+
+<!--[if IE 7]>
+	<style>
+		fieldset {
+			padding: 0.5em;
+		}
+		#corpo {
+			padding-top: 0;
+		}
+		.LayoutCamposHorizontal DIV.EtiquetaArriba{	
+			line-height: normal;
+		}
+		.informacionContexto ~ h1 {
+			margin-left:17%;
+		}
+	</style>
+<![endif]-->
+
+<!--  Forzar informacion de contexto a dereita e estilos basicos de controis -->
+<!--[if lt IE 7]>
+	<style>
+		.informacionContexto {
+			text-align: right;
+			padding: 0;
+		}
+		.AnchoMetade .LayoutCamposHorizontal div {
+			margin-right: 6% !important;
+		}		
+		.LayoutCamposHorizontal div {
+		 	margin-right: 3% !important;
+		}		
+		label {
+			float:left;
+		}
+		INPUT, 
+		SELECT,
+		SELECT.combo,
+		SELECT.formularioinactivo, 
+		INPUT.formulario,
+		INPUT.formularioinactivo,
+		TEXTAREA.formulario,
+		TEXTAREA.formularioinactivo,
+		TEXTAREA {
+				clear:left;		
+				color: #000;
+			 	background-color: #fff;	
+			 	border: 0.08em solid #000000;				
+			  	}	
+	</style>
+<![endif]-->
+
+<!-- 
+     Activa a visualizacion dos divs "js" no caso de haber javascript
+     Definicion de bordes estandar para navegadores distintos de IE 
+ -->
+
+<script type="text/javascript">
+
+	// Si javascript esta activo poñemos visible o estilo "js"
+	document.write("<style>.js{ display: block}<\/style>");
+	
+	// Borde negro en firefox, Opera, etc...
+	/*
+	var ie = document.all != undefined;
+	if (!(ie)) {
+	 document.write("<style> fieldset { border: 0.1em solid #BFB8BF; } </style>");
+   	}
+   	*/
+</script>
+
+
+<!--  Indicase o entorno no que nos movemos -->
+<script type="text/javascript">
+	var meuhostname = (document.location.hostname).toLowerCase();
+	
+		if (meuhostname.indexOf("www.edu.xunta.") == 0) {
+		// Se é producción, non visualizamos nada
+	}else {
+		//eliminamos todo o que non aporta info do entorno
+		meuhostname = meuhostname.replace("www","");
+		meuhostname = meuhostname.replace("auth-edu","");
+		meuhostname = meuhostname.replace(".edu","");
+		meuhostname = meuhostname.replace(".edu2","");
+		meuhostname = meuhostname.replace("edu","");
+		meuhostname = meuhostname.replace("edu2","");
+		meuhostname = meuhostname.replace(".extranet","");
+		meuhostname = meuhostname.replace(".xunta","");
+		meuhostname = meuhostname.replace(".es","");
+		meuhostname = meuhostname.replace(".gal","");
+		meuhostname = meuhostname.replace(".local","");
+		
+		//remprazamos cadeas que identifican entorno
+		meuhostname = meuhostname.replace(".des","desenvolvemento");
+		meuhostname = meuhostname.replace(".probas","contorna de probas");
+		meuhostname = meuhostname.replace(/\w*.dev/,"desenvolvemento");
+		meuhostname = meuhostname.replace(/\w*stg2/,"contorna de probas");
+		meuhostname = meuhostname.replace(/\w*.stg/,"contorna de probas");
+		meuhostname = meuhostname.replace(".formacion","formación");
+		
+		document.write("<div id='contorno'><i class='fa fa-cogs'></i>"+meuhostname.toUpperCase()+"</div>");
+	}
+</script>
+
+<!-- ********************************************** -->
+</head>
+
+<body>
+	
+		<!--[if (!IE)|(gt IE 9)]><!-->
+			<div id="page-loader">
+		        <div class="dot"></div>
+		        <div class="dot"></div>
+		    </div>
+		<!--<![endif]-->
+	
+	
+	<!-- CABECEIRA -->
+	
+
+
+
+
+
+
+
+
+
+
+
+<header>
+	<div id="app_nome">
+		 
+		<div id="nomeAplicacion">
+			<a href="/substitutoslistas/" accesskey="i" 
+					title="substitutoslistas-Listas públicas de vacantes e substitucións-Ir á páxina principal. Atallo de teclado: i" >
+				<h1><img alt="substitutoslistas" src="https://recursosweb.edu.xunta.gal/recursosweb/imaxes/svg-apps-educacion/substitutoslistas.svg"/><span class="sr-only">substitutoslistas</span></h1>
+			</a>
+		</div>
+		<div id="iconoMenu">
+			<a id="linkIconoMenu" href="#" 
+				title='Amosar/Ocultar menú'><span class="glyphicon glyphicon-menu-hamburger" 
+				aria-label='Amosar/Ocultar menú'></span></a>
+		</div>
+	</div>
+	<div id="accesosDirectos">
+
+		 
+		<a href="/substitutoslistas/VerAccesibilidade.do" accesskey="a" 
+			title='Pautas de accesibilidade empregadas. Atallo de teclado: a' ><i class="fa fa-universal-access" 
+				aria-label='Accesibilidade e usabilidade' aria-hidden="true"></i></a>
+		
+		 
+		<a href="/substitutoslistas/VerAvisoLegal.do" accesskey="v" 
+			title='Avisos legais para usuarios do servizo web. Atallo de teclado: v' ><i class="fa fa-balance-scale" 
+				aria-label='Aviso legal' aria-hidden="true"></i></a>
+	
+		
+		
+			
+
+		<a href="https://www.edu.xunta.gal/buzoninformes/" accesskey="b" target="_buzonInformes"  
+			title='Buzón informes. Atallo teclado: b'><i class="glyphicon glyphicon-inbox" 
+				aria-label='Buzón de informes' aria-hidden="true" ></i></a>
+
+	</div>
+	
+	
+	
+		<div id="botonLogin">
+			 			
+			<a href="/substitutoslistas/AbrirSesion.do" accesskey="s" 
+				title='Entrar. Atallo de teclado: s'><i class="glyphicon glyphicon-off p-r-5" 
+				aria-label='Entrar' aria-hidden="true" 
+				style="color:green;"></i></a>
+		</div>
+	
+</header>
+
+
+	<div id="contenedorPrincipal">
+		
+
+
+<!-- **************************	-->
+<!--            MENU            -->
+<!-- **************************	-->
+
+<div class="divEdu-menu"><ul id="nav" class="edu-menu"><li id="Inicio"  style="z-index:2000" ><a href="/substitutoslistas/PaxinaInicio.do"  id="Inicio_enlace"  title="Inicio. Atallo teclado: i"  accesskey="1" >1 Inicio</a></li><li id="Vacantes"  style="z-index:1999" ><a href="#"  id="Vacantes_enlace"  title="Vacantes. Atallo teclado (2)"  accesskey="2" >2 Vacantes</a><ul><li id="Vacantespendentes"  style="z-index:1999" ><a href="/substitutoslistas/VacantesPendentes.do"  id="Vacantespendentes_enlace"  title="Vacantes pendentes de cubrir. Atallo teclado (p)"  accesskey="p" >2.1 Pendentes</a></li><li id="Substitucionsadxudicadas"  style="z-index:1999" ><a href="/substitutoslistas/SubstitucionsAdxudicadas.do?OWASP_CSRFTOKEN=QZYC-UKUT-HEF9-4GS5-MWZ7-EYXQ-KC1U-P1YA"  id="Substitucionsadxudicadas_enlace"  title="Vacantes xa adxudicadas no curso actual. Atallo teclado (a)"  accesskey="a" >2.2 Adxudicadas</a></li></ul></li><li id="Listas"  style="z-index:1998" ><a href="#"  id="Listas_enlace"  title="Listas. Atallo teclado (3)"  accesskey="3" >3 Listas</a><ul><li id="Listassubstitutos"  style="z-index:1998" ><a href="/substitutoslistas/ListadoSubstitutos.do?OWASP_CSRFTOKEN=QZYC-UKUT-HEF9-4GS5-MWZ7-EYXQ-KC1U-P1YA"  id="Listassubstitutos_enlace"  title="Listas de substitutos e interinos. Atallo teclado (s) "  accesskey="s" >3.1 Substitutos        </a></li></ul></li><li id="Consultasubstituto"  style="z-index:1997" ><a href="/substitutoslistas/formularioconsultasubstituto.do"  id="Consultasubstituto_enlace"  title="Consulta dos datos dun substituto. Atallo teclado (4)"  accesskey="4" >4 Consulta substituto</a></li></ul><script type=""text/javascript"">jQuery(document).ready(function(){ menuEdu().iniciarMenu('/jsp/prv/Menu.jsp');});</script></div>
+
+				
+		
+		
+			
+				
+				
+			
+		
+		
+		<main>
+			<!-- CORPO -->			
+			<div id="corpo" class="corpo">
+				
+				
+				
+				
+		
+				
+					
+						
+							<div id="titulo" class="divTituloPaxina">	
+								<h1>
+									Vacantes pendentes
+									
+								</h1>
+								
+							</div>	
+						
+						 
+					
+					
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+		
+					
+
+
+
+
+  
+
+
+
+
+
+<script charset="UTF-8" src="https://recursosweb.edu.xunta.gal/recursosweb/scripts/text_utils.js" type="text/javascript"></script>
+<script charset="UTF-8" src="https://recursosweb.edu.xunta.gal/recursosweb/scripts/validar_data.js" type="text/javascript"></script>
+<script charset="UTF-8" src="https://recursosweb.edu.xunta.gal/recursosweb/scripts/popcalendar.js" type="text/javascript"></script>
+<script charset="UTF-8" src="https://recursosweb.edu.xunta.gal/recursosweb/scripts/jquery-ui.js" type="text/javascript"></script>
+<link charset="UTF-8" href="https://recursosweb.edu.xunta.gal/recursosweb/estilos/principal/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<link charset="UTF-8" href="https://recursosweb.edu.xunta.gal/recursosweb/estilos/principal/jquery.ui.theme.css" rel="stylesheet" type="text/css"/>
+<link charset="UTF-8" href="https://recursosweb.edu.xunta.gal/recursosweb/estilos/principal/jquery.ui.maqint.theme.css" rel="stylesheet" type="text/css"/>
+<!-- Select centros autoeditable -->
+<script charset="UTF-8" src="https://recursosweb.edu.xunta.gal/recursosweb/scripts/widgets-edu-1.0.0/widgets-edu.js" type="text/javascript"></script>
+<script src="/substitutoslistas/javascript/comboautocompletable/script-autocompletables.js"></script>
+<script src="/substitutoslistas/javascript/comboautocompletable/combo-centros.js"></script>
+
+
+
+
+
+<style>
+
+    .divCaptcha{
+        margin-top: 1em;
+        margin-left: 0.1em;
+    
+    }
+
+</style>
+
+<form name="paxinaConsultaForm" method="post" action="/substitutoslistas/VacantesPendentes.do">
+    <!-- Para a carga de combo con AJAX -->
+	<input type="hidden" name="centro" value="" id="valorDefectoCentro"> 
+    <fieldset>
+	    <legend>Filtros para a busca </legend>
+	    <div class="LayoutCamposVertical">
+	    	<div>        
+                <label for="codCorpo">Corpo/Tipo de persoal</label>  
+                <select name="corpo" tabindex="0" onchange="recargaEspecialidades()" id="codCorpo" title="Corpo/Tipo de personal ao que pertence"><option value="">-- Seleccione un elemento --</option>
+	                
+	                   
+	                       <option value="590">590 - Profesores de ensino secundario</option>
+	                   
+	                       <option value="592">592 - Profesores de escolas oficiais de idiomas</option>
+	                   
+	                       <option value="593">593 - Catedráticos de música e artes escénicas</option>
+	                   
+	                       <option value="594">594 - Profesores de música e artes escénicas</option>
+	                   
+	                       <option value="595">595 - Profesores de artes plásticas e deseño</option>
+	                   
+	                       <option value="596">596 - Mestres de taller de artes plásticas e deseño</option>
+	                   
+	                       <option value="597" selected="selected">597 - Mestres</option>
+	                   
+	                       <option value="598">598 - Profesores especialistas en sectores singulares da formación profesional</option>
+	                   
+	                       <option value="701">701 - Profesores de Relixión primaria</option>
+	                   
+	                       <option value="702">702 - Profesores de Relixión secundaria</option></select>
+                <noscript>
+                	<input type="submit" name="DIALOG-EVENT-recargaEspecialidades" value="Buscar especialidades" class="botaccion" title="Busca persoa">
+                </noscript>
+			</div>
+			<div id="divEspecialidade" style="display: none">
+	       		<label for="especialidade">Especialidade/Modalidade</label> 
+	       		<select name="especialidade" tabindex="1" id="especialidade" title="Especialidade/Modalidade á que pertence"><option value="">-- Seleccione un elemento --</option>
+							
+								<option value="37">597037 - Audición e Linguaxe</option>
+		                   
+								<option value="22">597022 - Ciencias da natureza</option>
+		                   
+								<option value="21">597021 - Ciencias sociais, xeografía e historia</option>
+		                   
+								<option value="61">597061 - Educación especial: Audición e Linguaxe</option>
+		                   
+								<option value="60">597060 - Educación especial: Pedagoxía Terapéutica</option>
+		                   
+								<option value="34">597034 - Educación Física</option>
+		                   
+								<option value="27">597027 - Educación física. 1º ciclo da ESO</option>
+		                   
+								<option value="31">597031 - Educación infantil</option>
+		                   
+								<option value="38">597038 - Educación Primaria</option>
+		                   
+								<option value="139">597139 - Idioma estranxeiro: Alemán</option>
+		                   
+								<option value="24">597024 - Lingua castelá e literatura</option>
+		                   
+								<option value="33">597033 - Lingua estranxeira: Francés</option>
+		                   
+								<option value="26">597026 - Lingua estranxeira. Francés. 1º ciclo da ESO</option>
+		                   
+								<option value="32" selected="selected">597032 - Lingua estranxeira: Inglés</option>
+		                   
+								<option value="25">597025 - Lingua estranxeira. Inglés. 1º ciclo da ESO</option>
+		                   
+								<option value="67">597067 - Lingua galega</option>
+		                   
+								<option value="23">597023 - Matemáticas</option>
+		                   
+								<option value="35">597035 - Música</option>
+		                   
+								<option value="28">597028 - Música: 1º ciclo da ESO</option>
+		                   
+								<option value="39">597039 - Orientación</option>
+		                   
+								<option value="36">597036 - Pedagoxía Terapéutica</option>
+		                   
+								<option value="64">597064 - Prazas de EP e ocio nas Escolas Fogar ou CEE</option>
+		                   
+								<option value="63">597063 - Prazas de PT e ocio nas Escolas Fogar ou CEE</option>
+		                   
+								<option value="18">597018 - Psicoloxía e pedagoxía</option></select>
+	       </div>
+	       
+				<noscript>
+	            	<div class="LayoutCamposVertical">
+		            	<div>
+			                <label for="especialidade">Especialidade/Modalidade</label> 
+			                <select name="especialidade" tabindex="1" id="especialidade" title="Especialidade/Modalidade á que pertence"><option value="">-- Seleccione un elemento --</option>
+									
+										<option value="37">597037 - Audición e Linguaxe</option>
+				                   
+										<option value="22">597022 - Ciencias da natureza</option>
+				                   
+										<option value="21">597021 - Ciencias sociais, xeografía e historia</option>
+				                   
+										<option value="61">597061 - Educación especial: Audición e Linguaxe</option>
+				                   
+										<option value="60">597060 - Educación especial: Pedagoxía Terapéutica</option>
+				                   
+										<option value="34">597034 - Educación Física</option>
+				                   
+										<option value="27">597027 - Educación física. 1º ciclo da ESO</option>
+				                   
+										<option value="31">597031 - Educación infantil</option>
+				                   
+										<option value="38">597038 - Educación Primaria</option>
+				                   
+										<option value="139">597139 - Idioma estranxeiro: Alemán</option>
+				                   
+										<option value="24">597024 - Lingua castelá e literatura</option>
+				                   
+										<option value="33">597033 - Lingua estranxeira: Francés</option>
+				                   
+										<option value="26">597026 - Lingua estranxeira. Francés. 1º ciclo da ESO</option>
+				                   
+										<option value="32" selected="selected">597032 - Lingua estranxeira: Inglés</option>
+				                   
+										<option value="25">597025 - Lingua estranxeira. Inglés. 1º ciclo da ESO</option>
+				                   
+										<option value="67">597067 - Lingua galega</option>
+				                   
+										<option value="23">597023 - Matemáticas</option>
+				                   
+										<option value="35">597035 - Música</option>
+				                   
+										<option value="28">597028 - Música: 1º ciclo da ESO</option>
+				                   
+										<option value="39">597039 - Orientación</option>
+				                   
+										<option value="36">597036 - Pedagoxía Terapéutica</option>
+				                   
+										<option value="64">597064 - Prazas de EP e ocio nas Escolas Fogar ou CEE</option>
+				                   
+										<option value="63">597063 - Prazas de PT e ocio nas Escolas Fogar ou CEE</option>
+				                   
+										<option value="18">597018 - Psicoloxía e pedagoxía</option></select>
+			       		</div> 
+			   		</div>  
+			   	</noscript>
+			   	<script>
+		       		document.getElementById("divEspecialidade").style.display = "block";
+		       	</script>
+	       
+	    
+			<div>
+				<label for="provincia">
+					Provincia
+				</label>
+				
+				<select name="provincia" tabindex="2" id="provincia"><option value="" selected="selected">-- Seleccione un elemento --</option>
+					<option value="15">Coruña (A)</option>
+<option value="27">Lugo</option>
+<option value="32">Ourense</option>
+<option value="36">Pontevedra</option></select>
+			</div>
+           
+            <div>
+	            <label for="centro">Centro</label>	            
+				<select name="centro" tabindex="1" id="centro" style="width: 40em;" class="combo-combobox combo-listaxe" title="Centro" alt="Centro"><option value="-1">Todos</option></select> 	    
+	            
+            </div>
+            
+           <div>
+		   		<fieldset>
+					<legend>Data de inicio da vacante</legend>
+					<div class="LayoutCamposHorizontal">
+						<div>
+							<div class="EtiquetaArriba"><label for="dataIni">Dende&nbsp;<a href="https://www.edu.xunta.gal/axudaplicacion/recursos/AxudaNonIncrustadaCache.do?claveBusca=axuda_comun_data&idTipoContido=4" target="popUpAxuda" ><img src="https://recursosweb.edu.xunta.gal/recursosweb/imaxes/iconos/axuda.gif" alt="Axuda" class="enlaceImaxe" /></a></label></div><input type="text" name="dataIni" id="dataIni" maxlength="10"" class="ce_data" value="16/09/2026" title="introduce unha data anterior á do inicio da vacante">&nbsp;<img src="https://recursosweb.edu.xunta.gal/recursosweb/imaxes/calendario/icono.gif" class="enlaceImaxe" alt="calendario" onclick="javascript:showCalendar(this, document.getElementById('dataIni'), 'dd/mm/yyyy', null, 0, this, 'https://recursosweb.edu.xunta.gal/recursosweb/imaxes/')">&nbsp;
+							
+						</div>
+						<div>
+							 <div class="EtiquetaArriba"><label for="dataFin">Ata&nbsp;<a href="https://www.edu.xunta.gal/axudaplicacion/recursos/AxudaNonIncrustadaCache.do?claveBusca=axuda_comun_data&idTipoContido=4" target="popUpAxuda" ><img src="https://recursosweb.edu.xunta.gal/recursosweb/imaxes/iconos/axuda.gif" alt="Axuda" class="enlaceImaxe" /></a></label></div><input type="text" name="dataFin" id="dataFin" maxlength="10"" class="ce_data" value="18/09/2026" title="introduce unha data posterior á do inicio da vacante">&nbsp;<img src="https://recursosweb.edu.xunta.gal/recursosweb/imaxes/calendario/icono.gif" class="enlaceImaxe" alt="calendario" onclick="javascript:showCalendar(this, document.getElementById('dataFin'), 'dd/mm/yyyy', null, 0, this, 'https://recursosweb.edu.xunta.gal/recursosweb/imaxes/')">&nbsp;
+							
+						</div>
+							
+					</div>
+				</fieldset>
+          </div>
+        </div> 
+        
+        <div class="LayoutCamposVertical divCaptcha">
+        
+            
+            
+
+            
+            
+            
+             
+            
+            
+            
+            
+                   
+            
+            
+            
+                   
+            
+            
+                
+                
+        </div>
+		
+		<input type="submit" name="DIALOG-EVENT-vacantesPendentes" value="Buscar" onclick="return validar()" id="DIALOG-EVENT-vacantesPendentes" class="botaccion" title="Busca persoa">
+        <input type="submit" name="DIALOG-EVENT-limpar" value="Limpar" id="DIALOG-EVENT-limpar" class="botaccion" title="Limpa os filtros e o resultado da busca">                      							
+	
+	</fieldset>
+</form>
+
+<!-- Taboa de resultados. Displaytag -->
+<div class="AnchoTotal">
+	
+		<span class="pagebanner">2 elementos atopados, amosando todos os elementos.</span>
+<table class="estiloListado" id="fila">
+<thead>
+<tr>
+<th class="sortable sorted order2">
+<a href="/substitutoslistas/VacantesPendentes.do?corpo=597&amp;especialidade=32&amp;dataFin=18%2F09%2F2026&amp;searchid=&amp;centro=&amp;DIALOG-EVENT-vacantesPendentes=Buscar&amp;sort=listado.dataAlta&amp;provincia=&amp;dir=asc&amp;dataIni=16%2F09%2F2026">Data alta</a></th>
+<th class="sortable">
+<a href="/substitutoslistas/VacantesPendentes.do?corpo=597&amp;especialidade=32&amp;dataFin=18%2F09%2F2026&amp;searchid=&amp;centro=&amp;DIALOG-EVENT-vacantesPendentes=Buscar&amp;sort=listado.cennom&amp;provincia=&amp;dir=asc&amp;dataIni=16%2F09%2F2026">Centro</a></th>
+<th>Tel&eacute;fono</th>
+<th class="sortable">
+<a href="/substitutoslistas/VacantesPendentes.do?corpo=597&amp;especialidade=32&amp;dataFin=18%2F09%2F2026&amp;searchid=&amp;centro=&amp;DIALOG-EVENT-vacantesPendentes=Buscar&amp;sort=listado.descripcion&amp;provincia=&amp;dir=asc&amp;dataIni=16%2F09%2F2026">Especialidade/ Modalidade</a></th>
+<th>Lingua da praza</th>
+<th>Xornada</th>
+<th class="sortable">
+<a href="/substitutoslistas/VacantesPendentes.do?corpo=597&amp;especialidade=32&amp;dataFin=18%2F09%2F2026&amp;searchid=&amp;centro=&amp;DIALOG-EVENT-vacantesPendentes=Buscar&amp;sort=listado.dataInicio&amp;provincia=&amp;dir=asc&amp;dataIni=16%2F09%2F2026">Data de inicio</a></th>
+<th class="sortable">
+<a href="/substitutoslistas/VacantesPendentes.do?corpo=597&amp;especialidade=32&amp;dataFin=18%2F09%2F2026&amp;searchid=&amp;centro=&amp;DIALOG-EVENT-vacantesPendentes=Buscar&amp;sort=listado.dataPrevFin&amp;provincia=&amp;dir=asc&amp;dataIni=16%2F09%2F2026">D.prev.fin</a></th>
+<th>Motivo</th>
+<th>Observaci&oacute;ns</th></tr></thead>
+<tbody>
+<tr class="par">
+<td style="width:1%!important">
+		            16/09/2026 13:13:45
+		        </td>
+<td style="text-align:left!important">
+		       	  	36010162 - CEIP A Canicouva (Vigo)       	  	
+		       	  	
+		       	  		
+		       	  	
+		       	 </td>
+<td style="width:1%!important">886120237</td>
+<td>597032 - Lingua estranxeira: Inglés</td>
+<td style="width:8%;text-align:center;">Non bilingüe</td>
+<td style="width:8%;text-align:center;">
+		        	
+		        		Completa
+		        	
+		        	
+		        </td>
+<td style="width:1%!important">
+		             17/09/2026
+		         </td>
+<td style="width:1%!important">
+		             01/10/2026
+		         </td>
+<td>BAIXA POR ENFERMIDADE</td>
+<td style="width:1%!important"></td></tr>
+<tr class="impar">
+<td style="width:1%!important">
+		            16/09/2026 08:00:03
+		        </td>
+<td style="text-align:left!important">
+		       	  	15024975 - CEIP Pío XII (Santiago de Compostela)       	  	
+		       	  	
+		       	  		
+		       	  	
+		       	 </td>
+<td style="width:1%!important">881866419</td>
+<td>597032 - Lingua estranxeira: Inglés</td>
+<td style="width:8%;text-align:center;">Non bilingüe</td>
+<td style="width:8%;text-align:center;">
+		        	
+		        		Completa
+		        	
+		        	
+		        </td>
+<td style="width:1%!important">
+		             17/09/2026
+		         </td>
+<td style="width:1%!important">
+		             30/06/2027
+		         </td>
+<td>INTERINIDADE SEN SUBSTITUIDO</td>
+<td style="width:1%!important">Atención domiciliaria. Itinerante concellos próximos</td></tr></tbody></table><span class="pagebanner">2 elementos atopados, amosando todos os elementos.</span> 
+	
+	
+</div>
+
+
+<script type="text/javascript"> 
+	var corpos = new Array();
+    CrearArrayCorpos();   
+
+	function TrueOrFalseData(data,patron){
+        if (data != null && data != ""){
+            if (validarData(data,patron) == null){
+                alert("A data non é correcta ou ten un formato incorrecto");
+                return false;
+            }
+        }
+        else return true;        
+    } 
+    
+    
+    function validar(){
+        if(TrueOrFalseData(document.forms[0].dataIni.value,'dd/MM/yyyy') == false) return false;
+        if(TrueOrFalseData(document.forms[0].dataFin.value,'dd/MM/yyyy') == false) return false;
+
+        return true;
+    } 
+    
+  	//Crea o array de corpos en javascript
+    function CrearArrayCorpos(){  		
+    
+    var jj = 0;
+    
+        var li = new Array();
+        li[0] = '590';
+        li[1] = 'Profesores de ensino secundario';
+        li[2] = new Array();
+        var n = 0;
+        
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '25';
+            li[2][n][1] = '590025 - Actividades (CEIS)';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '101';
+            li[2][n][1] = '590101 - Administración de empresas';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '12';
+            li[2][n][1] = '590012 - Alemán';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '815';
+            li[2][n][1] = '590815 - Ámbito científico-tecnolóxico';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '813';
+            li[2][n][1] = '590813 - Ámbito de comunicación: éuscaro';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '810';
+            li[2][n][1] = '590810 - Ámbito de comunicación: francés';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '811';
+            li[2][n][1] = '590811 - Ámbito de comunicación: inglés';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '812';
+            li[2][n][1] = '590812 - Ámbito de comunicación: lingua castelá e literatura';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '814';
+            li[2][n][1] = '590814 - Ámbito de coñecemento social';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '816';
+            li[2][n][1] = '590816 - Ámbito de la comunicación';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '102';
+            li[2][n][1] = '590102 - Análise e química industrial';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '59';
+            li[2][n][1] = '590059 - Apoio á área de ciencias ou tecnoloxía';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '58';
+            li[2][n][1] = '590058 - Apoio á área de língua e ciencias sociais';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '103';
+            li[2][n][1] = '590103 - Asesoría e procesos de imaxe persoal';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '8';
+            li[2][n][1] = '590008 - Bioloxía e xeoloxía';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '717';
+            li[2][n][1] = '590717 - Comunicación';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '104';
+            li[2][n][1] = '590104 - Construcións civís e edificacións';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '803';
+            li[2][n][1] = '590803 - Cultura clásica';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '9';
+            li[2][n][1] = '590009 - Debuxo';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '902';
+            li[2][n][1] = '590902 - Discapacidades sensoriales';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '61';
+            li[2][n][1] = '590061 - Economía';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '17';
+            li[2][n][1] = '590017 - Educación física';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '55';
+            li[2][n][1] = '590055 - Educadores CEI';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '231';
+            li[2][n][1] = '590231 - Equipos electrónicos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '700';
+            li[2][n][1] = '590700 - Especialista (Corpo 590)';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '704';
+            li[2][n][1] = '590704 - Especialista (Corpo 590): Animación turística';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '705';
+            li[2][n][1] = '590705 - Especialista (Corpo 590): Audio Próteses';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '703';
+            li[2][n][1] = '590703 - Especialista (Corpo 590): Baloncesto';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '707';
+            li[2][n][1] = '590707 - Especialista (Corpo 590): Condución de grupos e bicicleta';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '706';
+            li[2][n][1] = '590706 - Especialista (Corpo 590): Condución grupos a cabalo e coidados equinos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '708';
+            li[2][n][1] = '590708 - Especialista (Corpo 590): Edificación';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '718';
+            li[2][n][1] = '590718 - Especialista (Corpo 590): Formación para a Mobilidade Segura e Sustentable';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '701';
+            li[2][n][1] = '590701 - Especialista (Corpo 590): Fútbol';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '702';
+            li[2][n][1] = '590702 - Especialista (Corpo 590): Fútbol Sala';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '709';
+            li[2][n][1] = '590709 - Especialista (Corpo 590): Mantemento aeromecánico';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '715';
+            li[2][n][1] = '590715 - Especialista (Corpo 590): Organización transporte';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '711';
+            li[2][n][1] = '590711 - Especialista (Corpo 590): Protección Civil, ámbito Inspección e Coordinación';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '712';
+            li[2][n][1] = '590712 - Especialista (Corpo 590): Protección Civil, ámbito Intervención operativa en emerxencias';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '714';
+            li[2][n][1] = '590714 - Especialista (Corpo 590): Tratamento da pedra';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '710';
+            li[2][n][1] = '590710 - Especialista (Corpo 590): Vela';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '1';
+            li[2][n][1] = '590001 - Filosofía';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '7';
+            li[2][n][1] = '590007 - Física e química';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '105';
+            li[2][n][1] = '590105 - Formación e orientación laboral';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '817';
+            li[2][n][1] = '590817 - F.P.A.: Comunicación valenciano';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '818';
+            li[2][n][1] = '590818 - F.P.A: Comunicación valenciano/ingles';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '10';
+            li[2][n][1] = '590010 - Francés';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '2';
+            li[2][n][1] = '590002 - Grego';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '106';
+            li[2][n][1] = '590106 - Hostalaría e turismo';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '107';
+            li[2][n][1] = '590107 - Informática';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '56';
+            li[2][n][1] = '590056 - Informática de BUP';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '11';
+            li[2][n][1] = '590011 - Inglés';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '207';
+            li[2][n][1] = '590207 - Instalacións e equipos de cría e de cultivo';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '205';
+            li[2][n][1] = '590205 - Instalacións e mantemento de equipos térmicos e de fluidos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '206';
+            li[2][n][1] = '590206 - Instalacións electrotécnicas';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '108';
+            li[2][n][1] = '590108 - Intervención sociocomunitaria';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '13';
+            li[2][n][1] = '590013 - Italiano';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '208';
+            li[2][n][1] = '590208 - Laboratorio';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '3';
+            li[2][n][1] = '590003 - Latín';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '4';
+            li[2][n][1] = '590004 - Lingua castelá e literatura';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '716';
+            li[2][n][1] = '590716 - Lingua de signos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '53';
+            li[2][n][1] = '590053 - Lingua e literatura galega';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '210';
+            li[2][n][1] = '590210 - Máquinas, servizos e produción';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '6';
+            li[2][n][1] = '590006 - Matemáticas';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '800';
+            li[2][n][1] = '590800 - Multimedia';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '16';
+            li[2][n][1] = '590016 - Música';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '109';
+            li[2][n][1] = '590109 - Navegación e instalacións mariñas';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '212';
+            li[2][n][1] = '590212 - Oficina de proxectos de construción';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '213';
+            li[2][n][1] = '590213 - Oficina de proxectos de fabricación mecánica';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '215';
+            li[2][n][1] = '590215 - Operación de procesos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '216';
+            li[2][n][1] = '590216 - Operacións de produción agraria';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '214';
+            li[2][n][1] = '590214 - Operacións e equipos de elaboración de productos alimentarios';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '111';
+            li[2][n][1] = '590111 - Organización e proc. de mantenemento de vehículos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '112';
+            li[2][n][1] = '590112 - Organización e proxectos de fabricación mecánica';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '113';
+            li[2][n][1] = '590113 - Organización e proxectos sistemas enerxéticos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '110';
+            li[2][n][1] = '590110 - Organización e xestión comercial';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '18';
+            li[2][n][1] = '590018 - Orientación educativa';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '900';
+            li[2][n][1] = '590900 - Orientación vocacional e profesional';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '15';
+            li[2][n][1] = '590015 - Portugués';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '33';
+            li[2][n][1] = '590033 - Prácticas e actividades';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '219';
+            li[2][n][1] = '590219 - Procedementos de diagnóstico clínico e ortoprotésico';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '220';
+            li[2][n][1] = '590220 - Procedementos sanitarios e asistenciais';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '221';
+            li[2][n][1] = '590221 - Procesos comerciais';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '114';
+            li[2][n][1] = '590114 - Procesos de cultivo acuícola';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '115';
+            li[2][n][1] = '590115 - Procesos de producción agraria';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '222';
+            li[2][n][1] = '590222 - Procesos de xestión administrativa';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '117';
+            li[2][n][1] = '590117 - Procesos diagnósticos clínicos e produtos ortoprotésicos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '119';
+            li[2][n][1] = '590119 - Procesos e medios de comunicación';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '120';
+            li[2][n][1] = '590120 - Procesos e produtos de téxtil, confección e pel';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '121';
+            li[2][n][1] = '590121 - Procesos e produtos de vidrio e cerámica';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '122';
+            li[2][n][1] = '590122 - Procesos e produtos en artes gráficas';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '123';
+            li[2][n][1] = '590123 - Procesos e produtos en madeira e moble';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '116';
+            li[2][n][1] = '590116 - Procesos na industria alimentaria';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '118';
+            li[2][n][1] = '590118 - Procesos sanitarios';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '224';
+            li[2][n][1] = '590224 - Producción textil e tratamentos físico-químicos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '713';
+            li[2][n][1] = '590713 - Protésico Dental';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '225';
+            li[2][n][1] = '590225 - Servizos á comunidade';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '227';
+            li[2][n][1] = '590227 - Sistemas e aplicacións informáticas';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '124';
+            li[2][n][1] = '590124 - Sistemas electrónicos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '125';
+            li[2][n][1] = '590125 - Sistemas electrotécnicos e automáticos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '901';
+            li[2][n][1] = '590901 - Sobredotación';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '229';
+            li[2][n][1] = '590229 - Técnicas e procedementos de imaxe e son';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '19';
+            li[2][n][1] = '590019 - Tecnoloxía';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '64';
+            li[2][n][1] = '590064 - Tecnoloxía da fontanería';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '907';
+            li[2][n][1] = '590907 - Traballador social/Educación social';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '905';
+            li[2][n][1] = '590905 - Trastornos da conduta';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '903';
+            li[2][n][1] = '590903 - Trastornos motóricos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '904';
+            li[2][n][1] = '590904 - Trastornos xeneralizados do desenvolvemento';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '5';
+            li[2][n][1] = '590005 - Xeografía e historia';
+            n++;
+        
+        corpos[jj] = li;
+        jj++;
+    
+        var li = new Array();
+        li[0] = '592';
+        li[1] = 'Profesores de escolas oficiais de idiomas';
+        li[2] = new Array();
+        var n = 0;
+        
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '1';
+            li[2][n][1] = '592001 - Alemán';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '2';
+            li[2][n][1] = '592002 - Árabe';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '4';
+            li[2][n][1] = '592004 - Chinés';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '6';
+            li[2][n][1] = '592006 - Español';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '8';
+            li[2][n][1] = '592008 - Francés';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '9';
+            li[2][n][1] = '592009 - Galego';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '11';
+            li[2][n][1] = '592011 - Inglés';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '12';
+            li[2][n][1] = '592012 - Italiano';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '15';
+            li[2][n][1] = '592015 - Portugués';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '17';
+            li[2][n][1] = '592017 - Ruso';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '13';
+            li[2][n][1] = '592013 - Xaponés';
+            n++;
+        
+        corpos[jj] = li;
+        jj++;
+    
+        var li = new Array();
+        li[0] = '593';
+        li[1] = 'Catedráticos de música e artes escénicas';
+        li[2] = new Array();
+        var n = 0;
+        
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '1';
+            li[2][n][1] = '593001 - Acordeón';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '116';
+            li[2][n][1] = '593116 - Acrobacia aplicada al arte dramático';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '106';
+            li[2][n][1] = '593106 - Análise e práctica de repertorio da danza española';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '104';
+            li[2][n][1] = '593104 - Análise e práctica do repertorio da danza clásica';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '105';
+            li[2][n][1] = '593105 - Análise e práctica do repertorio da danza contemporánea';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '103';
+            li[2][n][1] = '593103 - Análise e práctica do repertorio de baile flamenco';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '3';
+            li[2][n][1] = '593003 - Arpa';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '18';
+            li[2][n][1] = '593018 - Baile Flamenco';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '81';
+            li[2][n][1] = '593081 - Baixo eléctrico';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '82';
+            li[2][n][1] = '593082 - Batería de jazz';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '83';
+            li[2][n][1] = '593083 - Cante flamenco';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '6';
+            li[2][n][1] = '593006 - Canto ';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '441';
+            li[2][n][1] = '593441 - Canto aplicado ao arte dramático';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '84';
+            li[2][n][1] = '593084 - Canto de jazz';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '7';
+            li[2][n][1] = '593007 - Caracterización';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '107';
+            li[2][n][1] = '593107 - Ciencias da saúde aplicadas á danza';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '8';
+            li[2][n][1] = '593008 - Clarinete ';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '9';
+            li[2][n][1] = '593009 - Clave';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '10';
+            li[2][n][1] = '593010 - Composición';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '108';
+            li[2][n][1] = '593108 - Composición coreográfica';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '85';
+            li[2][n][1] = '593085 - Composición de jazz';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '12';
+            li[2][n][1] = '593012 - Concertación';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '14';
+            li[2][n][1] = '593014 - Contrabaixo';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '86';
+            li[2][n][1] = '593086 - Contrabaixo de jazz';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '15';
+            li[2][n][1] = '593015 - Contrapunto e fuga ';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '13';
+            li[2][n][1] = '593013 - Conxunto coral e instrumental ';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '117';
+            li[2][n][1] = '593117 - Creación audiovisual';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '443';
+            li[2][n][1] = '593443 - Danza aplicada ao arte dramático';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '5';
+            li[2][n][1] = '593005 - Danza clásica';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '109';
+            li[2][n][1] = '593109 - Danza contemporánea';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '110';
+            li[2][n][1] = '593110 - Danza educativa';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '17';
+            li[2][n][1] = '593017 - Danza española';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '444';
+            li[2][n][1] = '593444 - Dicción e expresión oral';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '20';
+            li[2][n][1] = '593020 - Dirección de Coro';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '23';
+            li[2][n][1] = '593023 - Dirección de Orquestra';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '445';
+            li[2][n][1] = '593445 - Dirección escénica';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '118';
+            li[2][n][1] = '593118 - Dramaturxia e escritura dramática';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '87';
+            li[2][n][1] = '593087 - Dulzaina';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '25';
+            li[2][n][1] = '593025 - Escena Lírica';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '111';
+            li[2][n][1] = '593111 - Escenificación aplicada á danza';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '119';
+            li[2][n][1] = '593119 - Esgrima aplicado á arte dramática';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '448';
+            li[2][n][1] = '593448 - Espazo escénico';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '120';
+            li[2][n][1] = '593120 - Estética e historia da arte';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '28';
+            li[2][n][1] = '593028 - Estética e historia da música, da cultura e da arte';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '33';
+            li[2][n][1] = '593033 - Etnomusicoloxía';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '29';
+            li[2][n][1] = '593029 - Expresión corporal';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '30';
+            li[2][n][1] = '593030 - Fagot ';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '88';
+            li[2][n][1] = '593088 - Flabiol I Tambori';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '89';
+            li[2][n][1] = '593089 - Flamencoloxía';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '31';
+            li[2][n][1] = '593031 - Frauta de Bico';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '32';
+            li[2][n][1] = '593032 - Frauta Travesa';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '90';
+            li[2][n][1] = '593090 - Gaita';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '35';
+            li[2][n][1] = '593035 - Guitarra ';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '91';
+            li[2][n][1] = '593091 - Guitarra Eléctrica';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '36';
+            li[2][n][1] = '593036 - Guitarra flamenca';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '2';
+            li[2][n][1] = '593002 - Harmonía e melodía acompañada';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '37';
+            li[2][n][1] = '593037 - Historia da cultura e da arte';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '112';
+            li[2][n][1] = '593112 - Historia da danza';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '39';
+            li[2][n][1] = '593039 - Historia da música';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '450';
+            li[2][n][1] = '593450 - Iluminación';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '61';
+            li[2][n][1] = '593061 - Improvisación e acompañamento';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '121';
+            li[2][n][1] = '593121 - Indumentaria';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '92';
+            li[2][n][1] = '593092 - Instrumentos de Corda Pulsada do Renacemento e Barroco';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '93';
+            li[2][n][1] = '593093 - Instrumentos de Púa';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '94';
+            li[2][n][1] = '593094 - Instrumentos de vento de jazz';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '95';
+            li[2][n][1] = '593095 - Instrumentos Históricos de Corda Fretada';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '96';
+            li[2][n][1] = '593096 - Instrumentos Históricos de Tecla';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '97';
+            li[2][n][1] = '593097 - Instrumentos históricos de vento';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '452';
+            li[2][n][1] = '593452 - Interpretación con obxectos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '122';
+            li[2][n][1] = '593122 - Interpretación no audiovisual';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '124';
+            li[2][n][1] = '593124 - Interpretación no teatro do texto';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '454';
+            li[2][n][1] = '593454 - Interpretación no teatro do xesto';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '123';
+            li[2][n][1] = '593123 - Interpretación no teatro musical';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '474';
+            li[2][n][1] = '593474 - Jazz-batería';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '476';
+            li[2][n][1] = '593476 - Jazz-contrabaixo';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '477';
+            li[2][n][1] = '593477 - Jazz-guitarra';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '475';
+            li[2][n][1] = '593475 - Jazz-piano';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '471';
+            li[2][n][1] = '593471 - Jazz-saxofón';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '473';
+            li[2][n][1] = '593473 - Jazz-trombón';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '472';
+            li[2][n][1] = '593472 - Jazz-trompeta';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '45';
+            li[2][n][1] = '593045 - Lingua Alemá';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '46';
+            li[2][n][1] = '593046 - Lingua Francesa';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '47';
+            li[2][n][1] = '593047 - Lingua Inglesa';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '48';
+            li[2][n][1] = '593048 - Lingua Italiana';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '125';
+            li[2][n][1] = '593125 - Linguaxe musical aplicado ao arte dramático';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '455';
+            li[2][n][1] = '593455 - Literatura dramática';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '50';
+            li[2][n][1] = '593050 - Música de cámara';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '51';
+            li[2][n][1] = '593051 - Musicoloxía';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '52';
+            li[2][n][1] = '593052 - Oboe ';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '53';
+            li[2][n][1] = '593053 - Órgano';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '57';
+            li[2][n][1] = '593057 - Pedagoxía';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '126';
+            li[2][n][1] = '593126 - Pedagoxía teatral';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '58';
+            li[2][n][1] = '593058 - Percusión';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '127';
+            li[2][n][1] = '593127 - Pianista acompañante aplicado ao arte dramático';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '59';
+            li[2][n][1] = '593059 - Piano ';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '115';
+            li[2][n][1] = '593115 - Produción e Xestión de Música e Artes Escénicas';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '128';
+            li[2][n][1] = '593128 - Produción e xestión teatral';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '113';
+            li[2][n][1] = '593113 - Psicopedagoxía e xestión educativa';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '98';
+            li[2][n][1] = '593098 - Repertorio con piano para instrumentos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '63';
+            li[2][n][1] = '593063 - Repertorio con piano para voz';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '66';
+            li[2][n][1] = '593066 - Saxofón';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '68';
+            li[2][n][1] = '593068 - Solfexo e teoría da música';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '99';
+            li[2][n][1] = '593099 - Teclados/piano jazz';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '456';
+            li[2][n][1] = '593456 - Técnicas escénicas';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '129';
+            li[2][n][1] = '593129 - Técnicas gráficas para a escena';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '100';
+            li[2][n][1] = '593100 - Tecnoloxía Musical';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '114';
+            li[2][n][1] = '593114 - Tecnoloxías aplicadas á danza';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '101';
+            li[2][n][1] = '593101 - Tenora I Tible';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '130';
+            li[2][n][1] = '593130 - Teoría das artes do espectáculo';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '72';
+            li[2][n][1] = '593072 - Trombón';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '74';
+            li[2][n][1] = '593074 - Trompa ';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '75';
+            li[2][n][1] = '593075 - Trompeta ';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '76';
+            li[2][n][1] = '593076 - Tuba ';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '80';
+            li[2][n][1] = '593080 - Txistu';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '77';
+            li[2][n][1] = '593077 - Viola ';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '102';
+            li[2][n][1] = '593102 - Viola da Gamba';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '78';
+            li[2][n][1] = '593078 - Violín';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '79';
+            li[2][n][1] = '593079 - Violoncello';
+            n++;
+        
+        corpos[jj] = li;
+        jj++;
+    
+        var li = new Array();
+        li[0] = '594';
+        li[1] = 'Profesores de música e artes escénicas';
+        li[2] = new Array();
+        var n = 0;
+        
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '1';
+            li[2][n][1] = '594401 - Acordeón';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '116';
+            li[2][n][1] = '594116 - Acrobacia aplicada á arte dramática';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '88';
+            li[2][n][1] = '594402 - Arpa ';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '461';
+            li[2][n][1] = '594461 - Baixo eléctrico';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '465';
+            li[2][n][1] = '594465 - Cante flamenco';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '4';
+            li[2][n][1] = '594403 - Canto';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '441';
+            li[2][n][1] = '594441 - Canto aplicado á arte dramática';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '700';
+            li[2][n][1] = '594007 - Caracterización';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '7';
+            li[2][n][1] = '594404 - Clarinete';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '90';
+            li[2][n][1] = '594405 - Clave ';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '66';
+            li[2][n][1] = '594066 - Clavecinista acompañante';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '8';
+            li[2][n][1] = '594008 - Composición e instrumentación';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '10';
+            li[2][n][1] = '594406 - Contrabaixo';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '11';
+            li[2][n][1] = '594011 - Contrapunto e fuga';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '73';
+            li[2][n][1] = '594073 - Conxunto coral';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '9';
+            li[2][n][1] = '594407 - Coro';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '117';
+            li[2][n][1] = '594117 - Creación audiovisual';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '443';
+            li[2][n][1] = '594443 - Danza aplicada á arte dramática';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '436';
+            li[2][n][1] = '594436 - Danza clásica';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '437';
+            li[2][n][1] = '594437 - Danza contemporánea';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '13';
+            li[2][n][1] = '594435 - Danza española';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '444';
+            li[2][n][1] = '594444 - Dicción e expresión oral';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '445';
+            li[2][n][1] = '594445 - Dirección escénica';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '118';
+            li[2][n][1] = '594118 - Dramaturxia e escritura dramática';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '462';
+            li[2][n][1] = '594462 - Dulzaina';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '119';
+            li[2][n][1] = '594119 - Esgrima aplicada á arte dramática';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '448';
+            li[2][n][1] = '594448 - Espazo escénico';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '120';
+            li[2][n][1] = '594120 - Estética e historia da arte';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '19';
+            li[2][n][1] = '594019 - Estética e historia da música, da cultura e da arte';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '449';
+            li[2][n][1] = '594449 - Expresión corporal';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '21';
+            li[2][n][1] = '594408 - Fagot';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '409';
+            li[2][n][1] = '594409 - Flabiol i tambori';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '438';
+            li[2][n][1] = '594438 - Flamenco';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '24';
+            li[2][n][1] = '594411 - Frauta de bico';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '23';
+            li[2][n][1] = '594410 - Frauta travesa';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '2';
+            li[2][n][1] = '594412 - Fundamentos composición';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '99';
+            li[2][n][1] = '594413 - Gaita';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '26';
+            li[2][n][1] = '594414 - Guitarra';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '463';
+            li[2][n][1] = '594463 - Guitarra eléctrica';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '415';
+            li[2][n][1] = '594415 - Guitarra flamenca';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '439';
+            li[2][n][1] = '594439 - Historia da danza';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '29';
+            li[2][n][1] = '594416 - Historia da música';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '450';
+            li[2][n][1] = '594450 - Iluminación';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '121';
+            li[2][n][1] = '594121 - Indumentaria';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '417';
+            li[2][n][1] = '594417 - Instrumentos de corda pulsada do renacemento e do barroco';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '418';
+            li[2][n][1] = '594418 - Instrumentos de puga';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '452';
+            li[2][n][1] = '594452 - Interpretación con obxectos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '122';
+            li[2][n][1] = '594122 - Interpretación no audiovisual';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '124';
+            li[2][n][1] = '594124 - Interpretación no teatro do texto';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '454';
+            li[2][n][1] = '594454 - Interpretación no teatro do xesto';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '123';
+            li[2][n][1] = '594123 - Interpretación no teatro musical';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '474';
+            li[2][n][1] = '594474 - Jazz-batería';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '476';
+            li[2][n][1] = '594476 - Jazz-contrabaixo';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '477';
+            li[2][n][1] = '594477 - Jazz-guitarra';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '475';
+            li[2][n][1] = '594475 - Jazz-piano';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '471';
+            li[2][n][1] = '594471 - Jazz-saxofón';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '473';
+            li[2][n][1] = '594473 - Jazz-trombón';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '472';
+            li[2][n][1] = '594472 - Jazz-trompeta';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '53';
+            li[2][n][1] = '594460 - Linguaxe musical';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '478';
+            li[2][n][1] = '594478 - Linguaxe musical - Arte drámatico';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '125';
+            li[2][n][1] = '594125 - Linguaxe musical aplicado ao arte dramático';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '455';
+            li[2][n][1] = '594455 - Literatura dramática';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '39';
+            li[2][n][1] = '594039 - Música de cámara';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '42';
+            li[2][n][1] = '594419 - Oboe';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '43';
+            li[2][n][1] = '594420 - Órgano';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '421';
+            li[2][n][1] = '594421 - Orquestra';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '126';
+            li[2][n][1] = '594126 - Pedagoxía teatral';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '45';
+            li[2][n][1] = '594422 - Percusión';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '127';
+            li[2][n][1] = '594127 - Pianista acompañante aplicado ao arte dramático';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '65';
+            li[2][n][1] = '594065 - Pianista acompañante (danza)';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '64';
+            li[2][n][1] = '594064 - Pianista acompañante, instrumento';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '46';
+            li[2][n][1] = '594423 - Piano';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '128';
+            li[2][n][1] = '594128 - Produción e xestión teatral';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '50';
+            li[2][n][1] = '594050 - Repentización, transposición instrumental e acompañamento';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '464';
+            li[2][n][1] = '594464 - Repertorio con piano para danza';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '52';
+            li[2][n][1] = '594424 - Saxofón';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '456';
+            li[2][n][1] = '594456 - Técnicas escénicas';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '129';
+            li[2][n][1] = '594129 - Técnicas gráficas para a escena';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '425';
+            li[2][n][1] = '594425 - Tenora i tible';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '130';
+            li[2][n][1] = '594130 - Teoría das artes do espectáculo';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '55';
+            li[2][n][1] = '594426 - Trombón';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '56';
+            li[2][n][1] = '594056 - Trombón-tuba';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '57';
+            li[2][n][1] = '594427 - Trompa';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '58';
+            li[2][n][1] = '594428 - Trompeta';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '59';
+            li[2][n][1] = '594429 - Tuba';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '430';
+            li[2][n][1] = '594430 - Txistu';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '60';
+            li[2][n][1] = '594431 - Viola';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '432';
+            li[2][n][1] = '594432 - Viola da gamba';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '61';
+            li[2][n][1] = '594433 - Violín';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '63';
+            li[2][n][1] = '594434 - Violoncello';
+            n++;
+        
+        corpos[jj] = li;
+        jj++;
+    
+        var li = new Array();
+        li[0] = '595';
+        li[1] = 'Profesores de artes plásticas e deseño';
+        li[2] = new Array();
+        var n = 0;
+        
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '501';
+            li[2][n][1] = '595901 - Arqueoloxía I';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '507';
+            li[2][n][1] = '595907 - Arqueoloxía II';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '1';
+            li[2][n][1] = '595501 - Cerámica';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '2';
+            li[2][n][1] = '595502 - Conservación e restauración de materiais arqueolóxicos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '3';
+            li[2][n][1] = '595503 - Conservación e restauración de obras escultóricas';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '4';
+            li[2][n][1] = '595504 - Conservación e restauración de obras pictóricas';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '5';
+            li[2][n][1] = '595505 - Conservación e restauración de téxtiles';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '26';
+            li[2][n][1] = '595506 - Conservación e restauración do documento gráfico';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '9';
+            li[2][n][1] = '595507JJ - Debuxo artístico';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '7';
+            li[2][n][1] = '595507 - Debuxo artístico e cor';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '10';
+            li[2][n][1] = '595010 - Debuxo lineal';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '8';
+            li[2][n][1] = '595508 - Debuxo técnico';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '6';
+            li[2][n][1] = '595006 - Dereito usual e nocións de contabilidade e correspondencia comercial';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '510';
+            li[2][n][1] = '595510 - Deseño de moda';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '511';
+            li[2][n][1] = '595511 - Deseño de produto';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '512';
+            li[2][n][1] = '595512 - Deseño gráfico';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '509';
+            li[2][n][1] = '595509 - Deseño interiores';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '513';
+            li[2][n][1] = '595513 - Deseño téxtil';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '514';
+            li[2][n][1] = '595514 - Edición da arte';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '515';
+            li[2][n][1] = '595515 - Fotografía';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '526';
+            li[2][n][1] = '595526 - Historia coa especialidade de arqueoloxía';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '13';
+            li[2][n][1] = '595516 - Historia da arte';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '16';
+            li[2][n][1] = '595016 - Matemáticas';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '519';
+            li[2][n][1] = '595519 - Materiais e tecnoloxía: conservación e restauración';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '520';
+            li[2][n][1] = '595520 - Materiais e tecnoloxía: deseño';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '518';
+            li[2][n][1] = '595518 - Materiais e tecnoloxía:cerámica e vidro';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '521';
+            li[2][n][1] = '595521 - Medios audiovisuais';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '522';
+            li[2][n][1] = '595522 - Medios informáticos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '18';
+            li[2][n][1] = '595018 - Modelado e baleirado';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '523';
+            li[2][n][1] = '595523 - Organización industrial e lexislación';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '500';
+            li[2][n][1] = '595900 - P. Conservación e restauración de arqueoloxía I';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '502';
+            li[2][n][1] = '595902 - P. Conservación e restauración de arqueoloxía II';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '503';
+            li[2][n][1] = '595903 - P. Conservación e restauración de escultura II';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '504';
+            li[2][n][1] = '595904 - P. Conservación e restauración de pintura II';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '508';
+            li[2][n][1] = '595908 - Procedementos e técnicas artísticas';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '33';
+            li[2][n][1] = '595033 - Técnicas Audiovisuais';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '34';
+            li[2][n][1] = '595034 - Técnicas de deseño gráfico';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '35';
+            li[2][n][1] = '595035 - Técnicas gráficas industriais';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '39';
+            li[2][n][1] = '595039 - Teoría da comunicación';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '37';
+            li[2][n][1] = '595037 - Teoría e practicas do deseño';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '524';
+            li[2][n][1] = '595524 - Vidro';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '525';
+            li[2][n][1] = '595525 - Volume';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '40';
+            li[2][n][1] = '595040 - Xemoloxía';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '517';
+            li[2][n][1] = '595517 - Xoiería e orfebrería';
+            n++;
+        
+        corpos[jj] = li;
+        jj++;
+    
+        var li = new Array();
+        li[0] = '596';
+        li[1] = 'Mestres de taller de artes plásticas e deseño';
+        li[2] = new Array();
+        var n = 0;
+        
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '601';
+            li[2][n][1] = '596601 - Artesanía e ornamentación con elementos vexetais';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '65';
+            li[2][n][1] = '596065 - Baleirado e moldeado';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '602';
+            li[2][n][1] = '596602 - Bordados e encaixes';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '6';
+            li[2][n][1] = '596006 - Cerámica artística';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '603';
+            li[2][n][1] = '596603 - Complementos e accesorios';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '13';
+            li[2][n][1] = '596013 - Debuxo publicitario';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '8';
+            li[2][n][1] = '596008 - Decoración';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '12';
+            li[2][n][1] = '596012 - Delineación';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '15';
+            li[2][n][1] = '596015 - Deseño de figurinos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '107';
+            li[2][n][1] = '596107 - Deseño gráfico asistido por ordenador';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '16';
+            li[2][n][1] = '596604 - Dourado e policromía';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '605';
+            li[2][n][1] = '596605 - Ebanistería artística';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '606';
+            li[2][n][1] = '596606 - Encadernación artística';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '21';
+            li[2][n][1] = '596607 - Esmaltes';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '23';
+            li[2][n][1] = '596023 - Forxa artística';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '27';
+            li[2][n][1] = '596027 - Fotografía artística';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '28';
+            li[2][n][1] = '596608 - Fotografía e procesos de reproducción';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '29';
+            li[2][n][1] = '596029 - Gravado';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '41';
+            li[2][n][1] = '596041 - Metalistería artística';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '609';
+            li[2][n][1] = '596609 - Modelismo e maquetismo';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '610';
+            li[2][n][1] = '596610 - Moldes e reproducións';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '611';
+            li[2][n][1] = '596611 - Musivaria';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '47';
+            li[2][n][1] = '596047 - Ouriveria';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '50';
+            li[2][n][1] = '596050 - Química aplicada á cerámica';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '52';
+            li[2][n][1] = '596052 - Repuxado en metal';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '97';
+            li[2][n][1] = '596097 - Serigrafía';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '58';
+            li[2][n][1] = '596058 - Talla en madeira';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '60';
+            li[2][n][1] = '596612 - Talla en pedra e madeira';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '67';
+            li[2][n][1] = '596067 - Taller do moble';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '613';
+            li[2][n][1] = '596613 - Técnicas cerámicas';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '614';
+            li[2][n][1] = '596614 - Técnicas de gravado e estampación';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '618';
+            li[2][n][1] = '596618 - Técnicas de metal';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '616';
+            li[2][n][1] = '596616 - Técnicas de orfebrería e pratería';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '617';
+            li[2][n][1] = '596617 - Técnicas de patronaxe e confección';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '63';
+            li[2][n][1] = '596615 - Técnicas de xoiería';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '619';
+            li[2][n][1] = '596619 - Técnicas murais';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '620';
+            li[2][n][1] = '596620 - Técnicas téxtiles';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '621';
+            li[2][n][1] = '596621 - Técnicas vidreiras';
+            n++;
+        
+        corpos[jj] = li;
+        jj++;
+    
+        var li = new Array();
+        li[0] = '597';
+        li[1] = 'Mestres';
+        li[2] = new Array();
+        var n = 0;
+        
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '37';
+            li[2][n][1] = '597037 - Audición e Linguaxe';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '22';
+            li[2][n][1] = '597022 - Ciencias da natureza';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '21';
+            li[2][n][1] = '597021 - Ciencias sociais, xeografía e historia';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '61';
+            li[2][n][1] = '597061 - Educación especial: Audición e Linguaxe';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '60';
+            li[2][n][1] = '597060 - Educación especial: Pedagoxía Terapéutica';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '34';
+            li[2][n][1] = '597034 - Educación Física';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '27';
+            li[2][n][1] = '597027 - Educación física. 1º ciclo da ESO';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '31';
+            li[2][n][1] = '597031 - Educación infantil';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '38';
+            li[2][n][1] = '597038 - Educación Primaria';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '139';
+            li[2][n][1] = '597139 - Idioma estranxeiro: Alemán';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '24';
+            li[2][n][1] = '597024 - Lingua castelá e literatura';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '33';
+            li[2][n][1] = '597033 - Lingua estranxeira: Francés';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '26';
+            li[2][n][1] = '597026 - Lingua estranxeira. Francés. 1º ciclo da ESO';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '32';
+            li[2][n][1] = '597032 - Lingua estranxeira: Inglés';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '25';
+            li[2][n][1] = '597025 - Lingua estranxeira. Inglés. 1º ciclo da ESO';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '67';
+            li[2][n][1] = '597067 - Lingua galega';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '23';
+            li[2][n][1] = '597023 - Matemáticas';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '35';
+            li[2][n][1] = '597035 - Música';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '28';
+            li[2][n][1] = '597028 - Música: 1º ciclo da ESO';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '39';
+            li[2][n][1] = '597039 - Orientación';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '36';
+            li[2][n][1] = '597036 - Pedagoxía Terapéutica';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '64';
+            li[2][n][1] = '597064 - Prazas de EP e ocio nas Escolas Fogar ou CEE';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '63';
+            li[2][n][1] = '597063 - Prazas de PT e ocio nas Escolas Fogar ou CEE';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '18';
+            li[2][n][1] = '597018 - Psicoloxía e pedagoxía';
+            n++;
+        
+        corpos[jj] = li;
+        jj++;
+    
+        var li = new Array();
+        li[0] = '598';
+        li[1] = 'Profesores especialistas en sectores singulares da formación profesional';
+        li[2] = new Array();
+        var n = 0;
+        
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '1';
+            li[2][n][1] = '598001 - Cociña e pastelaría';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '2';
+            li[2][n][1] = '598002 - Estética';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '3';
+            li[2][n][1] = '598003 - Fabricación e instalación de carpintería e moble';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '701';
+            li[2][n][1] = '598701 - Fontanería';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '4';
+            li[2][n][1] = '598004 - Mantemento de vehículos';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '5';
+            li[2][n][1] = '598005 - Mecanizado e mantemento de máquinas';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '6';
+            li[2][n][1] = '598006 - Patronaxe e confección';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '7';
+            li[2][n][1] = '598007 - Peiteado';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '8';
+            li[2][n][1] = '598008 - Produción de artes gráficas';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '700';
+            li[2][n][1] = '598700 - Profesor especialista';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '9';
+            li[2][n][1] = '598009 - Servizos de restauración';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '10';
+            li[2][n][1] = '598010 - Soldadura';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '21';
+            li[2][n][1] = '598021 - Taller de vidro e cerámica';
+            n++;
+        
+        corpos[jj] = li;
+        jj++;
+    
+        var li = new Array();
+        li[0] = '701';
+        li[1] = 'Profesores de Relixión primaria';
+        li[2] = new Array();
+        var n = 0;
+        
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '401';
+            li[2][n][1] = '701401 - Relixión católica (primaria)';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '402';
+            li[2][n][1] = '701402 - Relixión evanxélica (primaria)';
+            n++;
+        
+        corpos[jj] = li;
+        jj++;
+    
+        var li = new Array();
+        li[0] = '702';
+        li[1] = 'Profesores de Relixión secundaria';
+        li[2] = new Array();
+        var n = 0;
+        
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '400';
+            li[2][n][1] = '702400 - Relixión católica (secundaria)';
+            n++;
+        
+            li[2][n] = new Array();
+            li[2][n][0] = '403';
+            li[2][n][1] = '702403 - Relixión evanxélica (secundaria)';
+            n++;
+        
+        corpos[jj] = li;
+        jj++;
+    
+    
+    }
+
+	//Recarga o combo de especialidades en función do corpo seleccionado
+    function recargaEspecialidades(){
+        var codCorpo = document.getElementById("codCorpo").value;
+        
+        if(codCorpo == ""){
+          // Vaciamos o combo de especialidades
+            document.getElementById("especialidade").length = 0;            
+        }
+
+      	// Buscamos no array corpos o que se corresponde co seleccionado      
+        var i = 0;
+        var encontrado = false;
+        var tamanho = corpos.length;
+        while(i<tamanho && !encontrado){
+            if(corpos[i][0] == codCorpo){
+                encontrado = true;
+            }   
+         i++;
+        }
+        //Atopamos o corpo no array
+        if(encontrado){
+            document.getElementById("divEspecialidade").style.display = "block";
+          // Facemos i-- porque acaba con i++
+            i--;
+
+          // Vaciamos o combo de especialidades
+            document.getElementById("especialidade").length = 0;
+          // Primeira opcion do combo a vacio
+            document.getElementById("especialidade").options[0] = new Option("-- Seleccione un elemento --","");
+
+            k = 1;
+          // Recuperamos a lista de especialidades para o corpo seleccionado
+            var especialidades = corpos[i][2];
+            for(j=0;j<especialidades.length;j++){
+                document.getElementById("especialidade").options[k] = 
+                       new Option(especialidades[j][1] , especialidades[j][0] );
+                k++;
+            } 
+
+        } else {
+          // Vaciamos o combo de especialidades
+            document.getElementById("especialidade").length = 0;     
+            document.getElementById("especialidade").options[0] = new Option("-- Seleccione un elemento --","");
+        }
+        
+    }
+	
+	$("#provincia").on("change", function () {
+	    const codProvincia = $(this).val();
+	    cargarCentros(codProvincia);
+	});
+
+</script>
+
+				
+				
+				
+	
+			</div>
+		</main>
+		
+		<div id="logosExtra">
+			<!--  para pintar outros logos.. FEDER, XACOBEO...
+			  -->
+		</div>
+	</div>
+
+
+	<!-- PE -->		
+    
+
+
+ 
+
+
+
+
+<footer>
+	<div class="footerLogo">
+		<a class="linkImaxeCabeceira" href="https://www.edu.xunta.gal/" accesskey="x" 
+				title='Ir a Portal Educativo da Xunta de Galicia. Acceso teclado: ALT+x' >
+			
+			<img alt="Portal Educativo da Xunta de Galicia" src="https://recursosweb.edu.xunta.gal/recursosweb/imaxes/logos/cons_cultura_eou-cor-neg.png"/>
+		</a>
+	</div>	
+	<div class="footerContact">
+		<ul>
+			<li style="border-right: 1px dotted rgba(238,238,238,.7);">
+				<i class="glyphicon glyphicon-bookmark" aria-hidden="true"></i>&nbsp;substitutoslistas 26.2.0
+			</li>
+			<li>
+				 	
+				<a href="/substitutoslistas/VerContacto.do" class="linkPe" accesskey="c" 
+						title='Como contactar coa consellería?. Atallo de teclado: c' >
+					<i class="glyphicon glyphicon-envelope" aria-hidden="true" 
+						aria-label='Contacto'></i>&nbsp;Contacto
+				</a>
+			</li>
+		</ul>
+	</div>	
+</footer>
+</body>
+</html>

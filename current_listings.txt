@@ -1,0 +1,8 @@
+Vacantes pendentes — snapshot em 2026-09-16 11:23:43
+Filtro: corpo=597 especialidade=32 dataIni=16/09/2026 dataFin=18/09/2026
+Total de listagens: 3
+============================================================
+
+1. Data alta | Centro | Teléfono | Especialidade/ Modalidade | Lingua da praza | Xornada | Data de inicio | D.prev.fin | Motivo | Observacións
+2. 16/09/2026 13:13:45 | 36010162 - CEIP A Canicouva (Vigo) | 886120237 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 17/09/2026 | 01/10/2026 | BAIXA POR ENFERMIDADE | 
+3. 16/09/2026 08:00:03 | 15024975 - CEIP Pío XII (Santiago de Compostela) | 881866419 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 17/09/2026 | 30/06/2027 | INTERINIDADE SEN SUBSTITUIDO | Atención domiciliaria. Itinerante concellos próximos
