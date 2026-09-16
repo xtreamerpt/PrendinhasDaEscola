@@ -5,7 +5,7 @@ on:
     # Corre a cada 5 minutos. Nota: o GitHub Actions não garante o horário
     # exato — em repositórios com pouca atividade, ou em períodos de
     # carga elevada no GitHub, a execução pode atrasar-se alguns minutos.
-    - cron: '*/5 * * * *'
+    - cron: '*/3 * * * *'
   workflow_dispatch: {}   # permite correr manualmente a partir do separador "Actions"
 
 permissions:
