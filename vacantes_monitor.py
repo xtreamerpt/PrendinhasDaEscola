@@ -37,13 +37,19 @@ from bs4 import BeautifulSoup
 # --------------------------------------------------------------
 BASE_URL = "https://www.edu.xunta.gal/substitutoslistas/VacantesPendentes.do"
 
+from datetime import datetime, timedelta
+
+today = datetime.now()
+data_ini = today.strftime("%d/%m/%Y")
+data_fin = (today + timedelta(days=2)).strftime("%d/%m/%Y")
+
 SEARCH_PARAMS = {
     "corpo": "597",
     "especialidade": "32",
     "provincia": "",
     "centro": "",
-    "dataIni": "16/09/2026",
-    "dataFin": "18/09/2026",
+    "dataIni": data_ini,
+    "dataFin": data_fin,
     "sort": "listado.dataAlta",
     "dir": "desc",
 }
