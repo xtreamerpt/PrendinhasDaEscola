@@ -14,22 +14,7 @@
     ],
     "raw": "Data alta | Centro | Teléfono | Especialidade/ Modalidade | Lingua da praza | Xornada | Data de inicio | D.prev.fin | Motivo | Observacións"
   },
-  "86e9c91bc4803c8a": {
-    "text": [
-      "16/09/2026 13:13:45",
-      "36010162 - CEIP A Canicouva (Vigo)",
-      "886120237",
-      "597032 - Lingua estranxeira: Inglés",
-      "Non bilingüe",
-      "Completa",
-      "17/09/2026",
-      "01/10/2026",
-      "BAIXA POR ENFERMIDADE",
-      ""
-    ],
-    "raw": "16/09/2026 13:13:45 | 36010162 - CEIP A Canicouva (Vigo) | 886120237 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 17/09/2026 | 01/10/2026 | BAIXA POR ENFERMIDADE | "
-  },
-  "f5e154c6bd624058": {
+  "cda8b99cb8a05e9a": {
     "text": [
       "16/09/2026 08:00:03",
       "15024975 - CEIP Pío XII (Santiago de Compostela)",
@@ -40,8 +25,8 @@
       "17/09/2026",
       "30/06/2027",
       "INTERINIDADE SEN SUBSTITUIDO",
-      "Atención domiciliaria. Itinerante concellos próximos"
+      "Atención domiciliaria. Itinerante"
     ],
-    "raw": "16/09/2026 08:00:03 | 15024975 - CEIP Pío XII (Santiago de Compostela) | 881866419 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 17/09/2026 | 30/06/2027 | INTERINIDADE SEN SUBSTITUIDO | Atención domiciliaria. Itinerante concellos próximos"
+    "raw": "16/09/2026 08:00:03 | 15024975 - CEIP Pío XII (Santiago de Compostela) | 881866419 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 17/09/2026 | 30/06/2027 | INTERINIDADE SEN SUBSTITUIDO | Atención domiciliaria. Itinerante"
   }
 }
