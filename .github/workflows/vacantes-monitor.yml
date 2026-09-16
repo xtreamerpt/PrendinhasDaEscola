@@ -1,5 +1,5 @@
 name: Monitor Vacantes Pendentes
-
+# refresh
 on:
   schedule:
     # Corre a cada 5 minutos. Nota: o GitHub Actions não garante o horário
