@@ -1,7 +1,7 @@
-Vacantes pendentes — snapshot em 2026-09-16 11:48:13
+Vacantes pendentes — snapshot em 2026-09-16 13:24:13
 Filtro: corpo=597 especialidade=32 dataIni=16/09/2026 dataFin=18/09/2026
 Total de listagens: 2
 ============================================================
 
 1. Data alta | Centro | Teléfono | Especialidade/ Modalidade | Lingua da praza | Xornada | Data de inicio | D.prev.fin | Motivo | Observacións
-2. 16/09/2026 08:00:03 | 15024975 - CEIP Pío XII (Santiago de Compostela) | 881866419 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 17/09/2026 | 30/06/2027 | INTERINIDADE SEN SUBSTITUIDO | Atención domiciliaria. Itinerante
+2. Non se atoparon elementos.
