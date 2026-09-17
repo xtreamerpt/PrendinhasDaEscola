@@ -1,8 +1,7 @@
-Vacantes pendentes — snapshot em 2026-09-17 09:05:36
+Vacantes pendentes — snapshot em 2026-09-17 09:10:52
 Filtro: corpo=597 especialidade=32 dataIni=17/09/2026 dataFin=19/09/2026
-Total de listagens: 3
+Total de listagens: 2
 ============================================================
 
 1. Data alta | Centro | Teléfono | Especialidade/ Modalidade | Lingua da praza | Xornada | Data de inicio | D.prev.fin | Motivo | Observacións
-2. 17/09/2026 07:53:34 | 36012742 - CEIP Plurilingüe de Vilaxoán (Vilagarcía de Arousa) | 886151864 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 18/09/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
-3. 16/09/2026 15:19:48 | 27014240 - CEIP de Samos (Samos) | 982828259 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 19/09/2026 | 03/10/2026 | PERMISO POR MATRIMONIO | Titora da aula mixta de 1º, 2º e 3º. Imparte Educación Física.
+2. Non se atoparon elementos.
