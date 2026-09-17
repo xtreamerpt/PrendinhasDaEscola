@@ -14,10 +14,19 @@
     ],
     "raw": "Data alta | Centro | Teléfono | Especialidade/ Modalidade | Lingua da praza | Xornada | Data de inicio | D.prev.fin | Motivo | Observacións"
   },
-  "738b7e2595d45a3a": {
+  "422a832ca347c38e": {
     "text": [
-      "Non se atoparon elementos."
+      "16/09/2026 15:19:48",
+      "27014240 - CEIP de Samos (Samos)",
+      "982828259",
+      "597032 - Lingua estranxeira: Inglés",
+      "Non bilingüe",
+      "Completa",
+      "19/09/2026",
+      "03/10/2026",
+      "PERMISO POR MATRIMONIO",
+      "Titora da aula mixta de 1º, 2º e 3º. Imparte Educación Física."
     ],
-    "raw": "Non se atoparon elementos."
+    "raw": "16/09/2026 15:19:48 | 27014240 - CEIP de Samos (Samos) | 982828259 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 19/09/2026 | 03/10/2026 | PERMISO POR MATRIMONIO | Titora da aula mixta de 1º, 2º e 3º. Imparte Educación Física."
   }
 }
