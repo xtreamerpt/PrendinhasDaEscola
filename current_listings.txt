@@ -1,4 +1,4 @@
-Vacantes pendentes — snapshot em 2026-09-17 21:30:56
+Vacantes pendentes — snapshot em 2026-09-17 21:31:12
 Filtro: corpo=597 especialidade=32 dataIni=17/09/2026 dataFin=19/09/2026
 Total de listagens: 2
 ============================================================
