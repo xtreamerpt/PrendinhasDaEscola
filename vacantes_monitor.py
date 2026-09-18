@@ -153,40 +153,64 @@ def diff_listings(old, new):
     return added, removed
 
 
-def send_email(added, removed):
+def send_email(added, removed, current):
     if not (EMAIL_FROM and EMAIL_PASSWORD and EMAIL_TO):
         print("Email não configurado (faltam variáveis de ambiente) — a saltar envio.")
         return
 
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    lines = [f"Alterações detetadas em {ts}", ""]
+    lines = [
+        f"Alterações detetadas em {ts}",
+        f"Filtro: corpo={SEARCH_PARAMS['corpo']} | especialidade={SEARCH_PARAMS['especialidade']}",
+        "",
+    ]
 
+    # --- Secção de alterações ---
     if added:
-        lines.append(f"NOVAS listagens ({len(added)}):")
+        lines.append(f"➕ NOVAS listagens ({len(added)}):")
+        lines.append("-" * 50)
         for a in added:
             lines.append(f"  + {a['raw']}")
         lines.append("")
 
     if removed:
-        lines.append(f"Listagens REMOVIDAS ({len(removed)}):")
+        lines.append(f"➖ Listagens REMOVIDAS ({len(removed)}):")
+        lines.append("-" * 50)
         for r in removed:
             lines.append(f"  - {r['raw']}")
         lines.append("")
 
+    # --- Lista completa atual ---
+    lines.append("=" * 50)
+    lines.append(f"📋 LISTA ATUAL COMPLETA ({len(current)} listagens)")
+    lines.append("=" * 50)
+    lines.append("")
+
+    if not current:
+        lines.append("(nenhuma listagem encontrada)")
+    else:
+        for i, item in enumerate(current.values(), start=1):
+            lines.append(f"{i}. {item['raw']}")
+
     body = "\n".join(lines)
 
+    subject_parts = []
+    if added:
+        subject_parts.append(f"{len(added)} nova(s)")
+    if removed:
+        subject_parts.append(f"{len(removed)} removida(s)")
+    subject = f"Vacantes pendentes: {', '.join(subject_parts)}"
+
     msg = MIMEText(body, "plain", "utf-8")
-    msg["Subject"] = f"Vacantes pendentes: {len(added)} nova(s), {len(removed)} removida(s)"
+    msg["Subject"] = subject
     msg["From"] = EMAIL_FROM
     msg["To"] = EMAIL_TO
 
     recipients = [addr.strip() for addr in EMAIL_TO.split(",") if addr.strip()]
-
     context = ssl.create_default_context()
     with smtplib.SMTP_SSL(SMTP_SERVER, SMTP_PORT, context=context) as server:
         server.login(EMAIL_FROM, EMAIL_PASSWORD)
         server.sendmail(EMAIL_FROM, recipients, msg.as_string())
-
     print(f"Email enviado para: {', '.join(recipients)}")
 
 
@@ -201,7 +225,7 @@ def main():
 
         if added or removed:
             print(f"{len(added)} nova(s), {len(removed)} removida(s).")
-            send_email(added, removed)
+            send_email(added, removed, current)
         else:
             print("Sem alterações.")
 
