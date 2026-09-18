@@ -1,14 +1,19 @@
-Informe de vacantes pendentes — 18/09/2026 12:05:42
+Informe de vacantes pendentes — 18/09/2026 12:10:49
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ Ningunha listaxe nova.
+➕ NOVAS listaxes (1):
+--------------------------------------------------
+  + Non se atoparon elementos.
 
-➖ Ningunha listaxe eliminada.
+➖ Listaxes ELIMINADAS (1):
+--------------------------------------------------
+  - 18/09/2026 13:45:31 | 15024975 - CEIP Pío XII (Santiago de Compostela) | 881866419 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 18/09/2026 | 24/09/2026 | BAIXA POR ENFERMIDADE | A baixa vai continúa con maternidade e lactancia. Praza Atención Domiciliaria
+    → Adxudicada a: Parrado Sánchez, Iris
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
 ==================================================
 
-1. 18/09/2026 13:45:31 | 15024975 - CEIP Pío XII (Santiago de Compostela) | 881866419 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 18/09/2026 | 24/09/2026 | BAIXA POR ENFERMIDADE | A baixa vai continúa con maternidade e lactancia. Praza Atención Domiciliaria
+1. Non se atoparon elementos.
