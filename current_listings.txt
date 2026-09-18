@@ -1,7 +1,15 @@
-Vacantes pendentes — captura en 2026-09-18 08:35:37
-Filtro: corpo=597 especialidade=32
-Total de listaxes: 2
-============================================================
+Informe de vacantes pendentes — 18/09/2026 08:40:46
+Filtro: corpo=597 | especialidade=32
+
+Resumo dos cambios dende a última consulta:
+
+➕ Ningunha listaxe nova.
+
+➖ Ningunha listaxe eliminada.
+
+==================================================
+📋 LISTAXE ACTUAL COMPLETA (2 listaxes)
+==================================================
 
 1. 18/09/2026 09:13:12 | 36009962 - CEIP Plurilingüe Otero Pedrayo (Vigo) | 886120257 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 22/09/2026 | 21/12/2026 | LICENCIA ASUNTOS PROPIOS | 
 2. 17/09/2026 23:13:05 | 15025037 - CEIP Sagrada Familia (A Coruña) | 881960316 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 18/09/2026 | 02/10/2026 | BAIXA POR ENFERMIDADE | 
