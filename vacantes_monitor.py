@@ -4,19 +4,6 @@ vacantes_monitor.py — versão GitHub Actions
 
 Verifica https://www.edu.xunta.gal/substitutoslistas/VacantesPendentes.do
 e envia um email sempre que há listagens novas ou removidas.
-
-Credenciais de email vêm de variáveis de ambiente (GitHub Secrets):
-  EMAIL_FROM      — endereço que envia o email
-  EMAIL_PASSWORD  — password de aplicação (App Password), NÃO a password normal
-  EMAIL_TO        — destinatário(s), separados por vírgula se forem vários
-  SMTP_SERVER     — opcional, default smtp.gmail.com
-  SMTP_PORT       — opcional, default 465
-
-Este script corre uma vez por execução (pensado para ser chamado pelo
-workflow do GitHub Actions a cada 5 minutos). O estado (state.json) é
-lido/escrito no diretório atual — o workflow trata de fazer commit
-dessas alterações de volta para o repositório entre execuções, já que
-cada execução do GitHub Actions começa numa máquina "limpa".
 """
 
 import hashlib
@@ -36,12 +23,6 @@ from bs4 import BeautifulSoup
 # CONFIG — ajusta consoante o que queres vigiar
 # --------------------------------------------------------------
 BASE_URL = "https://www.edu.xunta.gal/substitutoslistas/VacantesPendentes.do"
-
-from datetime import datetime, timedelta
-
-today = datetime.now()
-data_ini = today.strftime("%d/%m/%Y")
-data_fin = (today + timedelta(days=2)).strftime("%d/%m/%Y")
 
 SEARCH_PARAMS = {
     "corpo": "597",
@@ -142,8 +123,7 @@ def write_listings_txt(listings):
     lines = [
         f"Vacantes pendentes — snapshot em {ts}",
         f"Filtro: corpo={SEARCH_PARAMS['corpo']} "
-        f"especialidade={SEARCH_PARAMS['especialidade']} "
-        f"dataIni={SEARCH_PARAMS['dataIni']} dataFin={SEARCH_PARAMS['dataFin']}",
+        f"especialidade={SEARCH_PARAMS['especialidade']}",
         f"Total de listagens: {len(listings)}",
         "=" * 60,
         "",
