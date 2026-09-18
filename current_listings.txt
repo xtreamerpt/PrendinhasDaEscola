@@ -1,16 +1,11 @@
-Informe de vacantes pendentes — 18/09/2026 11:50:45
+Informe de vacantes pendentes — 18/09/2026 11:55:32
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 18/09/2026 13:45:31 | 15024975 - CEIP Pío XII (Santiago de Compostela) | 881866419 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 18/09/2026 | 24/09/2026 | BAIXA POR ENFERMIDADE | A baixa vai continúa con maternidade e lactancia. Praza Atención Domiciliaria
+➕ Ningunha listaxe nova.
 
-➖ Listaxes ELIMINADAS (1):
---------------------------------------------------
-  - Non se atoparon elementos.
-    → Non se puido determinar o substituto (aínda non aparece nas adxudicacións recentes).
+➖ Ningunha listaxe eliminada.
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
