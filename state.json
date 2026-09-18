@@ -14,10 +14,19 @@
     ],
     "raw": "Data alta | Centro | Teléfono | Especialidade/ Modalidade | Lingua da praza | Xornada | Data de inicio | D.prev.fin | Motivo | Observacións"
   },
-  "738b7e2595d45a3a": {
+  "c7886c6199cfcaee": {
     "text": [
-      "Non se atoparon elementos."
+      "17/09/2026 23:13:05",
+      "15025037 - CEIP Sagrada Familia (A Coruña)",
+      "881960316",
+      "597032 - Lingua estranxeira: Inglés",
+      "Non bilingüe",
+      "Completa",
+      "18/09/2026",
+      "02/10/2026",
+      "BAIXA POR ENFERMIDADE",
+      ""
     ],
-    "raw": "Non se atoparon elementos."
+    "raw": "17/09/2026 23:13:05 | 15025037 - CEIP Sagrada Familia (A Coruña) | 881960316 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 18/09/2026 | 02/10/2026 | BAIXA POR ENFERMIDADE | "
   }
 }
