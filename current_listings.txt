@@ -1,18 +1,11 @@
-Informe de vacantes pendentes — 18/09/2026 08:55:38
+Informe de vacantes pendentes — 18/09/2026 09:01:06
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + Non se atoparon elementos.
+➕ Ningunha listaxe nova.
 
-➖ Listaxes ELIMINADAS (2):
---------------------------------------------------
-  - 17/09/2026 23:13:05 | 15025037 - CEIP Sagrada Familia (A Coruña) | 881960316 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 18/09/2026 | 02/10/2026 | BAIXA POR ENFERMIDADE | 
-    → Adxudicada a: Abeledo López, Tania
-  - 18/09/2026 09:13:12 | 36009962 - CEIP Plurilingüe Otero Pedrayo (Vigo) | 886120257 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 22/09/2026 | 21/12/2026 | LICENCIA ASUNTOS PROPIOS | 
-    → Adxudicada a: Pérez Mesperuza, Manuel Francisco
+➖ Ningunha listaxe eliminada.
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
