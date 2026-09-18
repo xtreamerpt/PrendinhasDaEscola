@@ -127,6 +127,25 @@ def submit_vacantes_search(session, hidden_fields):
     return resp.text
 
 
+def is_header_row(cells: list[str]) -> bool:
+    """Detecta se a fila é a cabeceira da táboa (non unha vacante real)."""
+    if not cells:
+        return True
+    joined = " ".join(cells).lower()
+    # Palabras típicas da cabeceira
+    header_keywords = (
+        "data alta", "teléfono", "especialidade", "modalidade",
+        "lingua da praza", "xornada", "data de inicio", "d.prev",
+        "motivo", "observacións", "observacions",
+    )
+    hits = sum(1 for kw in header_keywords if kw in joined)
+    # Se aparece o código de centro (8 díxitos) é case seguro unha fila real
+    has_centro_code = any(re.search(r"\b\d{8}\b", c) for c in cells)
+    if has_centro_code:
+        return False
+    return hits >= 2 or cells[0].lower().startswith("data alta")
+
+
 def parse_listings(html: str) -> dict:
     soup = BeautifulSoup(html, "html.parser")
     tables = soup.find_all("table")
@@ -139,8 +158,7 @@ def parse_listings(html: str) -> dict:
         cells = [c.get_text(strip=True) for c in row.find_all(["td", "th"])]
         if not cells or not any(cells):
             continue
-        # Ignorar cabeceiras típicas
-        if cells[0].lower().startswith("data") or "centro" in cells[0].lower():
+        if is_header_row(cells):
             continue
         row_text = " | ".join(cells)
         row_id = hashlib.sha1(row_text.encode("utf-8")).hexdigest()[:16]
@@ -148,22 +166,74 @@ def parse_listings(html: str) -> dict:
     return listings
 
 
-def write_listings_txt(listings: dict):
-    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+def build_report(
+    added: list,
+    removed: list,
+    current: dict,
+    adjudications_cache: list[dict] | None = None,
+) -> str:
+    """Constrúe o texto completo do informe (usado no correo e no .txt)."""
+    if adjudications_cache is None:
+        adjudications_cache = []
+
+    ts = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     lines = [
-        f"Vacantes pendentes — captura en {ts}",
-        f"Filtro: corpo={SEARCH_PARAMS['corpo']} "
-        f"especialidade={SEARCH_PARAMS['especialidade']}",
-        f"Total de listaxes: {len(listings)}",
-        "=" * 60,
+        f"Informe de vacantes pendentes — {ts}",
+        f"Filtro: corpo={SEARCH_PARAMS['corpo']} | especialidade={SEARCH_PARAMS['especialidade']}",
+        "",
+        "Resumo dos cambios dende a última consulta:",
         "",
     ]
-    if not listings:
+
+    # --- Entradas engadidas ---
+    if added:
+        lines.append(f"➕ NOVAS listaxes ({len(added)}):")
+        lines.append("-" * 50)
+        for a in added:
+            lines.append(f"  + {a['raw']}")
+        lines.append("")
+    else:
+        lines.append("➕ Ningunha listaxe nova.")
+        lines.append("")
+
+    # --- Entradas eliminadas (con substituto se se atopa) ---
+    if removed:
+        lines.append(f"➖ Listaxes ELIMINADAS ({len(removed)}):")
+        lines.append("-" * 50)
+        for r in removed:
+            substituto = find_substituto_for_removed(r, adjudications_cache)
+            if substituto:
+                lines.append(f"  - {r['raw']}")
+                lines.append(f"    → Adxudicada a: {substituto}")
+            else:
+                lines.append(f"  - {r['raw']}")
+                lines.append(
+                    "    → Non se puido determinar o substituto "
+                    "(aínda non aparece nas adxudicacións recentes)."
+                )
+        lines.append("")
+    else:
+        lines.append("➖ Ningunha listaxe eliminada.")
+        lines.append("")
+
+    # --- Listaxe actual completa ---
+    lines.append("=" * 50)
+    lines.append(f"📋 LISTAXE ACTUAL COMPLETA ({len(current)} listaxes)")
+    lines.append("=" * 50)
+    lines.append("")
+
+    if not current:
         lines.append("(ningunha listaxe atopada)")
     else:
-        for i, item in enumerate(listings.values(), start=1):
+        for i, item in enumerate(current.values(), start=1):
             lines.append(f"{i}. {item['raw']}")
-    LISTINGS_TXT_FILE.write_text("\n".join(lines), encoding="utf-8")
+
+    return "\n".join(lines)
+
+
+def write_listings_txt(report_text: str):
+    """Escribe no ficheiro a mesma información que vai no correo."""
+    LISTINGS_TXT_FILE.write_text(report_text, encoding="utf-8")
 
 
 def load_previous_state() -> dict:
@@ -290,64 +360,10 @@ def find_substituto_for_removed(removed_item: dict, adjudications: list[dict]) -
 # --------------------------------------------------------------
 # Correo electrónico (en galego)
 # --------------------------------------------------------------
-def send_email(added, removed, current, adjudications_cache: list[dict] | None = None):
+def send_email(report_text: str, added: list, removed: list):
     if not (EMAIL_FROM and EMAIL_PASSWORD and EMAIL_TO):
         print("Correo non configurado (faltan variables de contorno) — sáltase o envío.")
         return
-
-    if adjudications_cache is None:
-        adjudications_cache = []
-
-    ts = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-    lines = [
-        f"Informe de vacantes pendentes — {ts}",
-        f"Filtro: corpo={SEARCH_PARAMS['corpo']} | especialidade={SEARCH_PARAMS['especialidade']}",
-        "",
-        "Resumo dos cambios dende a última consulta:",
-        "",
-    ]
-
-    # --- Entradas engadidas ---
-    if added:
-        lines.append(f"➕ NOVAS listaxes ({len(added)}):")
-        lines.append("-" * 50)
-        for a in added:
-            lines.append(f"  + {a['raw']}")
-        lines.append("")
-    else:
-        lines.append("➕ Ningunha listaxe nova.")
-        lines.append("")
-
-    # --- Entradas eliminadas (con substituto se se atopa) ---
-    if removed:
-        lines.append(f"➖ Listaxes ELIMINADAS ({len(removed)}):")
-        lines.append("-" * 50)
-        for r in removed:
-            substituto = find_substituto_for_removed(r, adjudications_cache)
-            if substituto:
-                lines.append(f"  - {r['raw']}")
-                lines.append(f"    → Adxudicada a: {substituto}")
-            else:
-                lines.append(f"  - {r['raw']}")
-                lines.append("    → Non se puido determinar o substituto (aínda non aparece nas adxudicacións recentes).")
-        lines.append("")
-    else:
-        lines.append("➖ Ningunha listaxe eliminada.")
-        lines.append("")
-
-    # --- Listaxe actual completa ---
-    lines.append("=" * 50)
-    lines.append(f"📋 LISTAXE ACTUAL COMPLETA ({len(current)} listaxes)")
-    lines.append("=" * 50)
-    lines.append("")
-
-    if not current:
-        lines.append("(ningunha listaxe atopada)")
-    else:
-        for i, item in enumerate(current.values(), start=1):
-            lines.append(f"{i}. {item['raw']}")
-
-    body = "\n".join(lines)
 
     # Asunto
     subject_parts = []
@@ -357,7 +373,7 @@ def send_email(added, removed, current, adjudications_cache: list[dict] | None =
         subject_parts.append(f"{len(removed)} eliminada(s)")
     subject = f"Vacantes pendentes: {', '.join(subject_parts) if subject_parts else 'sen cambios'}"
 
-    msg = MIMEText(body, "plain", "utf-8")
+    msg = MIMEText(report_text, "plain", "utf-8")
     msg["Subject"] = subject
     msg["From"] = EMAIL_FROM
     msg["To"] = EMAIL_TO
@@ -394,14 +410,19 @@ def main():
             )
             print(f"Atopáronse {len(adjudications)} adxudicación(s) recentes.")
 
-        # 3. Enviar informe se hai cambios
+        # 3. Construir o informe (igual para correo e ficheiro .txt)
+        report_text = build_report(added, removed, current, adjudications)
+
+        # 4. Sempre gardar o informe no ficheiro
+        write_listings_txt(report_text)
+
+        # 5. Enviar correo só se hai cambios
         if added or removed:
             print(f"{len(added)} nova(s), {len(removed)} eliminada(s).")
-            send_email(added, removed, current, adjudications)
+            send_email(report_text, added, removed)
         else:
             print("Sen cambios.")
 
-        write_listings_txt(current)
         save_state(current)
         return 0
 
