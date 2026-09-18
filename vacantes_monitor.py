@@ -1,18 +1,24 @@
 #!/usr/bin/env python3
 """
-vacantes_monitor.py — versão GitHub Actions
+vacantes_monitor_adjudicadas.py
 
-Verifica https://www.edu.xunta.gal/substitutoslistas/VacantesPendentes.do
-e envia um email sempre que há listagens novas ou removidas.
+Vixía as vacantes pendentes en:
+  https://www.edu.xunta.gal/substitutoslistas/VacantesPendentes.do
+
+Cando se elimina unha listaxe, consulta as adxudicacións recentes
+para intentar descubrir o nome do substituto ao que se lle adxudicou.
+
+O informe do correo vai en galego.
 """
 
 import hashlib
 import json
 import os
+import re
 import smtplib
 import ssl
 import sys
-from datetime import datetime
+from datetime import date, datetime, timedelta
 from email.mime.text import MIMEText
 from pathlib import Path
 
@@ -20,13 +26,14 @@ import requests
 from bs4 import BeautifulSoup
 
 # --------------------------------------------------------------
-# CONFIG — ajusta consoante o que queres vigiar
+# CONFIG — axusta o que queres vixiar
 # --------------------------------------------------------------
-BASE_URL = "https://www.edu.xunta.gal/substitutoslistas/VacantesPendentes.do"
+VACANTES_URL = "https://www.edu.xunta.gal/substitutoslistas/VacantesPendentes.do"
+ADJUDICADAS_URL = "https://www.edu.xunta.gal/substitutoslistas/SubstitucionsAdxudicadas.do"
 
 SEARCH_PARAMS = {
-    "corpo": "597",
-    "especialidade": "32",
+    "corpo": "597",          # Mestres
+    "especialidade": "32",   # Lingua estranxeira: Inglés
     "provincia": "",
     "centro": "",
     "dataIni": "",
@@ -51,7 +58,7 @@ HEADERS = {
 }
 
 # --------------------------------------------------------------
-# CONFIG DE EMAIL — lido de variáveis de ambiente / GitHub Secrets
+# CONFIG DE EMAIL — variables de contorno / GitHub Secrets
 # --------------------------------------------------------------
 SMTP_SERVER = os.environ.get("SMTP_SERVER", "smtp.gmail.com")
 SMTP_PORT = int(os.environ.get("SMTP_PORT", "465"))
@@ -60,10 +67,24 @@ EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
 EMAIL_TO = os.environ.get("EMAIL_TO")
 
 
-def fetch_form_and_session():
+# --------------------------------------------------------------
+# Utilidades de sesión e CSRF
+# --------------------------------------------------------------
+def get_csrf_token(session: requests.Session, url: str) -> str:
+    r = session.get(url, timeout=20)
+    r.raise_for_status()
+    match = re.search(
+        r'name="OWASP_CSRFTOKEN"\s+value=[\'"]([^\'"]+)[\'"]', r.text
+    )
+    if not match:
+        raise RuntimeError(f"Non se puido obter o token CSRF de {url}")
+    return match.group(1)
+
+
+def fetch_form_and_session(url: str):
     session = requests.Session()
     session.headers.update(HEADERS)
-    resp = session.get(BASE_URL, timeout=20)
+    resp = session.get(url, timeout=20)
     resp.raise_for_status()
 
     soup = BeautifulSoup(resp.text, "html.parser")
@@ -77,30 +98,36 @@ def fetch_form_and_session():
     return session, hidden_fields
 
 
-def submit_search(session, hidden_fields):
+# --------------------------------------------------------------
+# Vacantes pendentes
+# --------------------------------------------------------------
+def submit_vacantes_search(session, hidden_fields):
     payload = dict(hidden_fields)
     payload.update(SEARCH_PARAMS)
     payload[SEARCH_EVENT_FIELD] = SEARCH_EVENT_VALUE
 
     resp = session.post(
-        BASE_URL,
+        VACANTES_URL,
         data=payload,
         timeout=20,
-        headers={**HEADERS, "Referer": BASE_URL,
-                 "Content-Type": "application/x-www-form-urlencoded"},
+        headers={
+            **HEADERS,
+            "Referer": VACANTES_URL,
+            "Content-Type": "application/x-www-form-urlencoded",
+        },
     )
     resp.raise_for_status()
     DEBUG_HTML_FILE.write_text(resp.text, encoding="utf-8")
 
     if "anomal" in resp.text.lower() or "xss.detect" in resp.text.lower():
         raise RuntimeError(
-            "O filtro anti-abuso do site bloqueou o pedido — "
-            "verifica debug_last_response.html."
+            "O filtro anti-abuso do sitio bloqueou o pedido — "
+            "revisa debug_last_response.html."
         )
     return resp.text
 
 
-def parse_listings(html):
+def parse_listings(html: str) -> dict:
     soup = BeautifulSoup(html, "html.parser")
     tables = soup.find_all("table")
     if not tables:
@@ -112,94 +139,223 @@ def parse_listings(html):
         cells = [c.get_text(strip=True) for c in row.find_all(["td", "th"])]
         if not cells or not any(cells):
             continue
+        # Ignorar cabeceiras típicas
+        if cells[0].lower().startswith("data") or "centro" in cells[0].lower():
+            continue
         row_text = " | ".join(cells)
         row_id = hashlib.sha1(row_text.encode("utf-8")).hexdigest()[:16]
         listings[row_id] = {"text": cells, "raw": row_text}
     return listings
 
 
-def write_listings_txt(listings):
+def write_listings_txt(listings: dict):
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     lines = [
-        f"Vacantes pendentes — snapshot em {ts}",
+        f"Vacantes pendentes — captura en {ts}",
         f"Filtro: corpo={SEARCH_PARAMS['corpo']} "
         f"especialidade={SEARCH_PARAMS['especialidade']}",
-        f"Total de listagens: {len(listings)}",
+        f"Total de listaxes: {len(listings)}",
         "=" * 60,
         "",
     ]
     if not listings:
-        lines.append("(nenhuma listagem encontrada)")
+        lines.append("(ningunha listaxe atopada)")
     else:
         for i, item in enumerate(listings.values(), start=1):
             lines.append(f"{i}. {item['raw']}")
     LISTINGS_TXT_FILE.write_text("\n".join(lines), encoding="utf-8")
 
 
-def load_previous_state():
+def load_previous_state() -> dict:
     if STATE_FILE.exists():
         return json.loads(STATE_FILE.read_text(encoding="utf-8"))
     return {}
 
 
-def save_state(listings):
-    STATE_FILE.write_text(json.dumps(listings, ensure_ascii=False, indent=2), encoding="utf-8")
+def save_state(listings: dict):
+    STATE_FILE.write_text(
+        json.dumps(listings, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
 
 
-def diff_listings(old, new):
+def diff_listings(old: dict, new: dict):
     old_ids, new_ids = set(old.keys()), set(new.keys())
     added = [new[i] for i in (new_ids - old_ids)]
     removed = [old[i] for i in (old_ids - new_ids)]
     return added, removed
 
 
-def send_email(added, removed, current):
+# --------------------------------------------------------------
+# Adxudicacións (para descubrir o substituto)
+# --------------------------------------------------------------
+def extract_centro_code(raw_text: str) -> str | None:
+    """Intenta extraer o código numérico do centro (8 díxitos)."""
+    match = re.search(r"\b(\d{8})\b", raw_text)
+    return match.group(1) if match else None
+
+
+def extract_centro_name(raw_text: str) -> str | None:
+    """Intenta extraer o nome do centro despois do código."""
+    match = re.search(r"\b\d{8}\s*[-–]\s*(.+?)(?:\s*\||$)", raw_text)
+    if match:
+        return match.group(1).strip()
+    return None
+
+
+def search_adjudications(
+    corpo: str = "597",
+    especialidade: str = "32",
+    days_back: int = 3,
+) -> list[dict]:
+    """
+    Busca adxudicacións recentes (últimos `days_back` días ata mañá).
+    Devolve unha lista de dicionarios coa información de cada fila.
+    """
+    session = requests.Session()
+    session.headers.update(HEADERS)
+
+    csrf = get_csrf_token(session, ADJUDICADAS_URL)
+
+    today = date.today()
+    data_ini = (today - timedelta(days=days_back)).strftime("%d/%m/%Y")
+    data_fin = (today + timedelta(days=1)).strftime("%d/%m/%Y")
+
+    payload = {
+        "OWASP_CSRFTOKEN": csrf,
+        "corpo": corpo,
+        "especialidade": especialidade,
+        "provincia": "",
+        "centro": "-1",
+        "dataIni": data_ini,
+        "dataFin": data_fin,
+        "idDoc": "1",
+        "nif": "",
+        "DIALOG-EVENT-substitucionsAdxudicadas": "Buscar",
+    }
+
+    resp = session.post(
+        ADJUDICADAS_URL,
+        data=payload,
+        timeout=25,
+        headers={
+            **HEADERS,
+            "Referer": ADJUDICADAS_URL,
+            "Content-Type": "application/x-www-form-urlencoded",
+        },
+    )
+    resp.raise_for_status()
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+    table = soup.find("table", id="fila")
+    if not table:
+        return []
+
+    results = []
+    for row in table.find_all("tr")[1:]:  # saltar cabeceira
+        cols = [td.get_text(strip=True) for td in row.find_all("td")]
+        if len(cols) >= 8:
+            results.append(
+                {
+                    "data_alta": cols[0],
+                    "data_adxudicacion": cols[1],
+                    "telefono": cols[2],
+                    "centro": cols[3],
+                    "especialidade": cols[4],
+                    "lingua": cols[5],
+                    "xornada": cols[6],
+                    "substituto": cols[7],
+                }
+            )
+    return results
+
+
+def find_substituto_for_removed(removed_item: dict, adjudications: list[dict]) -> str | None:
+    """
+    Tenta emparellar a vacante eliminada cunha adxudicación
+    polo código ou nome do centro.
+    """
+    raw = removed_item.get("raw", "")
+    code = extract_centro_code(raw)
+    name = extract_centro_name(raw)
+
+    for adj in adjudications:
+        centro_adj = adj.get("centro", "")
+        if code and code in centro_adj:
+            return adj["substituto"]
+        if name and name.lower() in centro_adj.lower():
+            return adj["substituto"]
+    return None
+
+
+# --------------------------------------------------------------
+# Correo electrónico (en galego)
+# --------------------------------------------------------------
+def send_email(added, removed, current, adjudications_cache: list[dict] | None = None):
     if not (EMAIL_FROM and EMAIL_PASSWORD and EMAIL_TO):
-        print("Email não configurado (faltam variáveis de ambiente) — a saltar envio.")
+        print("Correo non configurado (faltan variables de contorno) — sáltase o envío.")
         return
 
-    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    if adjudications_cache is None:
+        adjudications_cache = []
+
+    ts = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     lines = [
-        f"Alterações detetadas em {ts}",
+        f"Informe de vacantes pendentes — {ts}",
         f"Filtro: corpo={SEARCH_PARAMS['corpo']} | especialidade={SEARCH_PARAMS['especialidade']}",
+        "",
+        "Resumo dos cambios dende a última consulta:",
         "",
     ]
 
-    # --- Secção de alterações ---
+    # --- Entradas engadidas ---
     if added:
-        lines.append(f"➕ NOVAS listagens ({len(added)}):")
+        lines.append(f"➕ NOVAS listaxes ({len(added)}):")
         lines.append("-" * 50)
         for a in added:
             lines.append(f"  + {a['raw']}")
         lines.append("")
-
-    if removed:
-        lines.append(f"➖ Listagens REMOVIDAS ({len(removed)}):")
-        lines.append("-" * 50)
-        for r in removed:
-            lines.append(f"  - {r['raw']}")
+    else:
+        lines.append("➕ Ningunha listaxe nova.")
         lines.append("")
 
-    # --- Lista completa atual ---
+    # --- Entradas eliminadas (con substituto se se atopa) ---
+    if removed:
+        lines.append(f"➖ Listaxes ELIMINADAS ({len(removed)}):")
+        lines.append("-" * 50)
+        for r in removed:
+            substituto = find_substituto_for_removed(r, adjudications_cache)
+            if substituto:
+                lines.append(f"  - {r['raw']}")
+                lines.append(f"    → Adxudicada a: {substituto}")
+            else:
+                lines.append(f"  - {r['raw']}")
+                lines.append("    → Non se puido determinar o substituto (aínda non aparece nas adxudicacións recentes).")
+        lines.append("")
+    else:
+        lines.append("➖ Ningunha listaxe eliminada.")
+        lines.append("")
+
+    # --- Listaxe actual completa ---
     lines.append("=" * 50)
-    lines.append(f"📋 LISTA ATUAL COMPLETA ({len(current)} listagens)")
+    lines.append(f"📋 LISTAXE ACTUAL COMPLETA ({len(current)} listaxes)")
     lines.append("=" * 50)
     lines.append("")
 
     if not current:
-        lines.append("(nenhuma listagem encontrada)")
+        lines.append("(ningunha listaxe atopada)")
     else:
         for i, item in enumerate(current.values(), start=1):
             lines.append(f"{i}. {item['raw']}")
 
     body = "\n".join(lines)
 
+    # Asunto
     subject_parts = []
     if added:
         subject_parts.append(f"{len(added)} nova(s)")
     if removed:
-        subject_parts.append(f"{len(removed)} removida(s)")
-    subject = f"Vacantes pendentes: {', '.join(subject_parts)}"
+        subject_parts.append(f"{len(removed)} eliminada(s)")
+    subject = f"Vacantes pendentes: {', '.join(subject_parts) if subject_parts else 'sen cambios'}"
 
     msg = MIMEText(body, "plain", "utf-8")
     msg["Subject"] = subject
@@ -211,29 +367,46 @@ def send_email(added, removed, current):
     with smtplib.SMTP_SSL(SMTP_SERVER, SMTP_PORT, context=context) as server:
         server.login(EMAIL_FROM, EMAIL_PASSWORD)
         server.sendmail(EMAIL_FROM, recipients, msg.as_string())
-    print(f"Email enviado para: {', '.join(recipients)}")
+    print(f"Correo enviado a: {', '.join(recipients)}")
 
 
+# --------------------------------------------------------------
+# Main
+# --------------------------------------------------------------
 def main():
     try:
-        session, hidden_fields = fetch_form_and_session()
-        html = submit_search(session, hidden_fields)
+        # 1. Consultar vacantes pendentes
+        session, hidden_fields = fetch_form_and_session(VACANTES_URL)
+        html = submit_vacantes_search(session, hidden_fields)
         current = parse_listings(html)
         previous = load_previous_state()
 
         added, removed = diff_listings(previous, current)
 
+        # 2. Se hai eliminadas, buscar nas adxudicacións recentes
+        adjudications = []
+        if removed:
+            print(f"Detectáronse {len(removed)} eliminada(s). Consultando adxudicacións…")
+            adjudications = search_adjudications(
+                corpo=SEARCH_PARAMS["corpo"],
+                especialidade=SEARCH_PARAMS["especialidade"],
+                days_back=3,
+            )
+            print(f"Atopáronse {len(adjudications)} adxudicación(s) recentes.")
+
+        # 3. Enviar informe se hai cambios
         if added or removed:
-            print(f"{len(added)} nova(s), {len(removed)} removida(s).")
-            send_email(added, removed, current)
+            print(f"{len(added)} nova(s), {len(removed)} eliminada(s).")
+            send_email(added, removed, current, adjudications)
         else:
-            print("Sem alterações.")
+            print("Sen cambios.")
 
         write_listings_txt(current)
         save_state(current)
         return 0
+
     except Exception as exc:
-        print(f"ERROR: {exc}", file=sys.stderr)
+        print(f"ERRO: {exc}", file=sys.stderr)
         return 1
 
 
