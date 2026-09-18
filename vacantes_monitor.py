@@ -48,8 +48,8 @@ SEARCH_PARAMS = {
     "especialidade": "32",
     "provincia": "",
     "centro": "",
-   # "dataIni": data_ini,
-   # "dataFin": data_fin,
+    "dataIni": data_ini,
+    "dataFin": data_fin,
     "sort": "listado.dataAlta",
     "dir": "desc",
 }
