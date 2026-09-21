@@ -1,16 +1,11 @@
-Informe de vacantes pendentes — 21/09/2026 06:15:44
+Informe de vacantes pendentes — 21/09/2026 06:20:43
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 20/09/2026 21:51:50 | 27012012 - CEIP Frei Luís de Granada (Sarria) | 982870838 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 18/09/2026 | 16/10/2026 | BAIXA POR ENFERMIDADE | 
+➕ Ningunha listaxe nova.
 
-➖ Listaxes ELIMINADAS (1):
---------------------------------------------------
-  - Non se atoparon elementos.
-    → Non se puido determinar o substituto (aínda non aparece nas adxudicacións recentes).
+➖ Ningunha listaxe eliminada.
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
