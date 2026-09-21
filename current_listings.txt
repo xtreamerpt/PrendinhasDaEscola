@@ -1,11 +1,9 @@
-Informe de vacantes pendentes — 21/09/2026 07:25:34
+Informe de vacantes pendentes — 21/09/2026 07:31:38
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 21/09/2026 09:21:50 | 36004691 - CEIP de Coirón-Dena (Meaño) | 886151374 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 23/09/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
+➕ Ningunha listaxe nova.
 
 ➖ Ningunha listaxe eliminada.
 
