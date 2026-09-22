@@ -1,14 +1,11 @@
-Informe de vacantes pendentes — 22/09/2026 09:25:33
+Informe de vacantes pendentes — 22/09/2026 09:30:57
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
 ➕ Ningunha listaxe nova.
 
-➖ Listaxes ELIMINADAS (1):
---------------------------------------------------
-  - 21/09/2026 11:44:55 | 36024318 - CRA Raíña Aragonta (Salceda de Caselas) | 886110175 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 21/09/2026 | 19/10/2026 | BAIXA POR ENFERMIDADE | Imprescindible dispor de medio de transporte entre as instalacións do centro.
-    → Adxudicada a: Tóth , Alexandra
+➖ Ningunha listaxe eliminada.
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (3 listaxes)
