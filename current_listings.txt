@@ -1,16 +1,11 @@
-Informe de vacantes pendentes — 22/09/2026 10:05:49
+Informe de vacantes pendentes — 22/09/2026 10:08:30
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + Non se atoparon elementos.
+➕ Ningunha listaxe nova.
 
-➖ Listaxes ELIMINADAS (1):
---------------------------------------------------
-  - 22/09/2026 11:10:18 | 36007710 - CEP Plurilingüe Santa Mariña (Redondela) | 886110629 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 21/09/2026 | 05/10/2026 | BAIXA POR ENFERMIDADE | 
-    → Adxudicada a: Rodríguez Becerra, Gloria
+➖ Ningunha listaxe eliminada.
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
