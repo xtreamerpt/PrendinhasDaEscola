@@ -1,17 +1,19 @@
-Informe de vacantes pendentes — 22/09/2026 10:01:13
+Informe de vacantes pendentes — 22/09/2026 10:05:49
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ Ningunha listaxe nova.
+➕ NOVAS listaxes (1):
+--------------------------------------------------
+  + Non se atoparon elementos.
 
 ➖ Listaxes ELIMINADAS (1):
 --------------------------------------------------
-  - 21/09/2026 09:21:50 | 36004691 - CEIP de Coirón-Dena (Meaño) | 886151374 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 23/09/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
-    → Adxudicada a: Iglesias Vázquez, Helena
+  - 22/09/2026 11:10:18 | 36007710 - CEP Plurilingüe Santa Mariña (Redondela) | 886110629 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 21/09/2026 | 05/10/2026 | BAIXA POR ENFERMIDADE | 
+    → Adxudicada a: Rodríguez Becerra, Gloria
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
 ==================================================
 
-1. 22/09/2026 11:10:18 | 36007710 - CEP Plurilingüe Santa Mariña (Redondela) | 886110629 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 21/09/2026 | 05/10/2026 | BAIXA POR ENFERMIDADE | 
+1. Non se atoparon elementos.
