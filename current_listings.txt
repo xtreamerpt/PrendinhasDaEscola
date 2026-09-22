@@ -1,17 +1,19 @@
-Informe de vacantes pendentes — 22/09/2026 09:20:45
+Informe de vacantes pendentes — 22/09/2026 09:25:33
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
 ➕ Ningunha listaxe nova.
 
-➖ Ningunha listaxe eliminada.
+➖ Listaxes ELIMINADAS (1):
+--------------------------------------------------
+  - 21/09/2026 11:44:55 | 36024318 - CRA Raíña Aragonta (Salceda de Caselas) | 886110175 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 21/09/2026 | 19/10/2026 | BAIXA POR ENFERMIDADE | Imprescindible dispor de medio de transporte entre as instalacións do centro.
+    → Adxudicada a: Tóth , Alexandra
 
 ==================================================
-📋 LISTAXE ACTUAL COMPLETA (4 listaxes)
+📋 LISTAXE ACTUAL COMPLETA (3 listaxes)
 ==================================================
 
 1. 22/09/2026 11:10:18 | 36007710 - CEP Plurilingüe Santa Mariña (Redondela) | 886110629 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 21/09/2026 | 05/10/2026 | BAIXA POR ENFERMIDADE | 
 2. 21/09/2026 19:35:05 | 36003832 - CEIP Valle-Inclán (O Grove) | 886151086 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 18/09/2026 | 17/10/2026 | BAIXA POR ENFERMIDADE | 
-3. 21/09/2026 11:44:55 | 36024318 - CRA Raíña Aragonta (Salceda de Caselas) | 886110175 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 21/09/2026 | 19/10/2026 | BAIXA POR ENFERMIDADE | Imprescindible dispor de medio de transporte entre as instalacións do centro.
-4. 21/09/2026 09:21:50 | 36004691 - CEIP de Coirón-Dena (Meaño) | 886151374 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 23/09/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
+3. 21/09/2026 09:21:50 | 36004691 - CEIP de Coirón-Dena (Meaño) | 886151374 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 23/09/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
