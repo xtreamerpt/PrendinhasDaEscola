@@ -1,11 +1,9 @@
-Informe de vacantes pendentes — 22/09/2026 06:01:12
+Informe de vacantes pendentes — 22/09/2026 06:05:31
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 21/09/2026 19:35:05 | 36003832 - CEIP Valle-Inclán (O Grove) | 886151086 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 18/09/2026 | 17/10/2026 | BAIXA POR ENFERMIDADE | 
+➕ Ningunha listaxe nova.
 
 ➖ Ningunha listaxe eliminada.
 
