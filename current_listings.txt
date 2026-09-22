@@ -1,19 +1,23 @@
-Informe de vacantes pendentes — 22/09/2026 09:05:34
+Informe de vacantes pendentes — 22/09/2026 09:10:47
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
 ➕ Ningunha listaxe nova.
 
-➖ Ningunha listaxe eliminada.
+➖ Listaxes ELIMINADAS (3):
+--------------------------------------------------
+  - 22/09/2026 08:47:39 | 15006699 - CEIP Plurilingüe Ángela Ruiz Robles (Ferrol) | 881930312 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 23/09/2026 | 30/06/2027 | INTERINIDADE SEN SUBSTITUIDO | Atención domiciliaria. Itinerante
+    → Adxudicada a: Quiza Lago, Laura
+  - 22/09/2026 08:44:24 | 15006845 - CEIP Isaac Peral (Ferrol) | 881930210 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 23/09/2026 | 08/10/2026 | PERMISO SINDICAL | Longa duración
+    → Adxudicada a: Morán García, Denis
+  - 20/09/2026 21:51:50 | 27012012 - CEIP Frei Luís de Granada (Sarria) | 982870838 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 18/09/2026 | 16/10/2026 | BAIXA POR ENFERMIDADE | 
+    → Adxudicada a: Ferro Rodríguez, Iván José
 
 ==================================================
-📋 LISTAXE ACTUAL COMPLETA (6 listaxes)
+📋 LISTAXE ACTUAL COMPLETA (3 listaxes)
 ==================================================
 
-1. 22/09/2026 08:47:39 | 15006699 - CEIP Plurilingüe Ángela Ruiz Robles (Ferrol) | 881930312 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 23/09/2026 | 30/06/2027 | INTERINIDADE SEN SUBSTITUIDO | Atención domiciliaria. Itinerante
-2. 22/09/2026 08:44:24 | 15006845 - CEIP Isaac Peral (Ferrol) | 881930210 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 23/09/2026 | 08/10/2026 | PERMISO SINDICAL | Longa duración
-3. 21/09/2026 19:35:05 | 36003832 - CEIP Valle-Inclán (O Grove) | 886151086 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 18/09/2026 | 17/10/2026 | BAIXA POR ENFERMIDADE | 
-4. 21/09/2026 11:44:55 | 36024318 - CRA Raíña Aragonta (Salceda de Caselas) | 886110175 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 21/09/2026 | 19/10/2026 | BAIXA POR ENFERMIDADE | Imprescindible dispor de medio de transporte entre as instalacións do centro.
-5. 21/09/2026 09:21:50 | 36004691 - CEIP de Coirón-Dena (Meaño) | 886151374 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 23/09/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
-6. 20/09/2026 21:51:50 | 27012012 - CEIP Frei Luís de Granada (Sarria) | 982870838 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 18/09/2026 | 16/10/2026 | BAIXA POR ENFERMIDADE | 
+1. 21/09/2026 19:35:05 | 36003832 - CEIP Valle-Inclán (O Grove) | 886151086 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 18/09/2026 | 17/10/2026 | BAIXA POR ENFERMIDADE | 
+2. 21/09/2026 11:44:55 | 36024318 - CRA Raíña Aragonta (Salceda de Caselas) | 886110175 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 21/09/2026 | 19/10/2026 | BAIXA POR ENFERMIDADE | Imprescindible dispor de medio de transporte entre as instalacións do centro.
+3. 21/09/2026 09:21:50 | 36004691 - CEIP de Coirón-Dena (Meaño) | 886151374 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 23/09/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
