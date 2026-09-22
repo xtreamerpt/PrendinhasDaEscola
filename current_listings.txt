@@ -1,16 +1,11 @@
-Informe de vacantes pendentes — 22/09/2026 08:50:41
+Informe de vacantes pendentes — 22/09/2026 08:55:32
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 22/09/2026 08:44:24 | 15006845 - CEIP Isaac Peral (Ferrol) | 881930210 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 23/09/2026 | 08/10/2026 | PERMISO SINDICAL | Longa duración
+➕ Ningunha listaxe nova.
 
-➖ Listaxes ELIMINADAS (1):
---------------------------------------------------
-  - 22/09/2026 08:44:24 | 15006845 - CEIP Isaac Peral (Ferrol) | 881930210 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 23/09/2026 | 08/10/2026 | PERMISO SINDICAL | 
-    → Non se puido determinar o substituto (aínda non aparece nas adxudicacións recentes).
+➖ Ningunha listaxe eliminada.
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (6 listaxes)
