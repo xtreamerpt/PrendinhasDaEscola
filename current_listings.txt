@@ -1,16 +1,11 @@
-Informe de vacantes pendentes — 25/09/2026 10:50:46
+Informe de vacantes pendentes — 25/09/2026 10:55:30
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + Non se atoparon elementos.
+➕ Ningunha listaxe nova.
 
-➖ Listaxes ELIMINADAS (1):
---------------------------------------------------
-  - 25/09/2026 12:15:51 | 36016051 - CEIP Plurilingüe Seis do Nadal (Vigo) | 886120180 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 25/09/2026 | 09/10/2026 | BAIXA POR ENFERMIDADE | Baixa de larga duración. NEE dentro da aula.
-    → Adxudicada a: Teijelo Vila, Sofía Teresa
+➖ Ningunha listaxe eliminada.
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
