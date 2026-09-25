@@ -1,16 +1,11 @@
-Informe de vacantes pendentes — 25/09/2026 11:50:48
+Informe de vacantes pendentes — 25/09/2026 11:55:31
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + Non se atoparon elementos.
+➕ Ningunha listaxe nova.
 
-➖ Listaxes ELIMINADAS (1):
---------------------------------------------------
-  - 25/09/2026 13:24:56 | 15024951 - CEIP Plurilingüe de Louro (Muros) | 981827753 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 25/09/2026 | 24/10/2026 | BAIXA POR ENFERMIDADE | Está baixa terá continuidade cun permiso por parto.
-    → Adxudicada a: del Rio Cofán, Paula
+➖ Ningunha listaxe eliminada.
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
