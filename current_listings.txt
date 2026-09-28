@@ -1,11 +1,9 @@
-Informe de vacantes pendentes — 28/09/2026 08:25:36
+Informe de vacantes pendentes — 28/09/2026 08:30:53
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 28/09/2026 10:22:25 | 36010204 - CEIP Plurilingüe Párroco Don Camilo (Vigo) | 886120222 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
+➕ Ningunha listaxe nova.
 
 ➖ Ningunha listaxe eliminada.
 
