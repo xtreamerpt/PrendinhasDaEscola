@@ -1,17 +1,18 @@
-Informe de vacantes pendentes — 28/09/2026 08:10:53
+Informe de vacantes pendentes — 28/09/2026 08:15:44
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
 ➕ NOVAS listaxes (1):
 --------------------------------------------------
-  + 28/09/2026 10:06:27 | 27012504 - CPI San Tomé do Carballo (Taboada) | 982870851 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
+  + 28/09/2026 10:14:46 | 36000247 - CPI de Cova Terreña (Baiona) | 886120001 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
 
 ➖ Ningunha listaxe eliminada.
 
 ==================================================
-📋 LISTAXE ACTUAL COMPLETA (2 listaxes)
+📋 LISTAXE ACTUAL COMPLETA (3 listaxes)
 ==================================================
 
-1. 28/09/2026 10:06:27 | 27012504 - CPI San Tomé do Carballo (Taboada) | 982870851 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
-2. 27/09/2026 22:50:42 | 36001975 - CEIP Plurilingüe Pío Cabanillas Gallas (Dozón) | 986780472 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 30/09/2026 | 15/12/2026 | PERMISO DE MATERNIDADE | 
+1. 28/09/2026 10:14:46 | 36000247 - CPI de Cova Terreña (Baiona) | 886120001 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
+2. 28/09/2026 10:06:27 | 27012504 - CPI San Tomé do Carballo (Taboada) | 982870851 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
+3. 27/09/2026 22:50:42 | 36001975 - CEIP Plurilingüe Pío Cabanillas Gallas (Dozón) | 986780472 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 30/09/2026 | 15/12/2026 | PERMISO DE MATERNIDADE | 
