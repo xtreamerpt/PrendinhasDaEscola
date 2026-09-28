@@ -1,17 +1,20 @@
-Informe de vacantes pendentes — 28/09/2026 08:50:43
+Informe de vacantes pendentes — 28/09/2026 08:55:33
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ Ningunha listaxe nova.
+➕ NOVAS listaxes (1):
+--------------------------------------------------
+  + 28/09/2026 10:09:35 | 27014665 - CEIP Luís Pimentel (Lugo) | 982828600 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 28/09/2026 | 12/10/2026 | BAIXA POR ENFERMIDADE | 
 
 ➖ Ningunha listaxe eliminada.
 
 ==================================================
-📋 LISTAXE ACTUAL COMPLETA (4 listaxes)
+📋 LISTAXE ACTUAL COMPLETA (5 listaxes)
 ==================================================
 
 1. 28/09/2026 10:22:25 | 36010204 - CEIP Plurilingüe Párroco Don Camilo (Vigo) | 886120222 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
 2. 28/09/2026 10:14:46 | 36000247 - CPI de Cova Terreña (Baiona) | 886120001 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
-3. 28/09/2026 10:06:27 | 27012504 - CPI San Tomé do Carballo (Taboada) | 982870851 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
-4. 27/09/2026 22:50:42 | 36001975 - CEIP Plurilingüe Pío Cabanillas Gallas (Dozón) | 986780472 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 30/09/2026 | 15/12/2026 | PERMISO DE MATERNIDADE | 
+3. 28/09/2026 10:09:35 | 27014665 - CEIP Luís Pimentel (Lugo) | 982828600 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 28/09/2026 | 12/10/2026 | BAIXA POR ENFERMIDADE | 
+4. 28/09/2026 10:06:27 | 27012504 - CPI San Tomé do Carballo (Taboada) | 982870851 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
+5. 27/09/2026 22:50:42 | 36001975 - CEIP Plurilingüe Pío Cabanillas Gallas (Dozón) | 986780472 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 30/09/2026 | 15/12/2026 | PERMISO DE MATERNIDADE | 
