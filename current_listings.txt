@@ -1,11 +1,9 @@
-Informe de vacantes pendentes — 28/09/2026 08:55:33
+Informe de vacantes pendentes — 28/09/2026 09:01:07
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 28/09/2026 10:09:35 | 27014665 - CEIP Luís Pimentel (Lugo) | 982828600 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 28/09/2026 | 12/10/2026 | BAIXA POR ENFERMIDADE | 
+➕ Ningunha listaxe nova.
 
 ➖ Ningunha listaxe eliminada.
 
