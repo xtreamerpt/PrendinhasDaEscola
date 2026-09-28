@@ -1,11 +1,9 @@
-Informe de vacantes pendentes — 28/09/2026 08:15:44
+Informe de vacantes pendentes — 28/09/2026 08:20:41
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 28/09/2026 10:14:46 | 36000247 - CPI de Cova Terreña (Baiona) | 886120001 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
+➕ Ningunha listaxe nova.
 
 ➖ Ningunha listaxe eliminada.
 
