@@ -1,11 +1,9 @@
-Informe de vacantes pendentes — 28/09/2026 09:20:44
+Informe de vacantes pendentes — 28/09/2026 09:25:30
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 28/09/2026 11:02:10 | 15014829 - CEIP Pedro Barrié de la Maza (Sada) | 881960090 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 28/09/2026 | 12/10/2026 | BAIXA POR ENFERMIDADE | 
+➕ Ningunha listaxe nova.
 
 ➖ Ningunha listaxe eliminada.
 
