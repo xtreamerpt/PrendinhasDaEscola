@@ -1,16 +1,11 @@
-Informe de vacantes pendentes — 28/09/2026 06:20:42
+Informe de vacantes pendentes — 28/09/2026 06:25:30
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 27/09/2026 22:50:42 | 36001975 - CEIP Plurilingüe Pío Cabanillas Gallas (Dozón) | 986780472 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 30/09/2026 | 15/12/2026 | PERMISO DE MATERNIDADE | 
+➕ Ningunha listaxe nova.
 
-➖ Listaxes ELIMINADAS (1):
---------------------------------------------------
-  - Non se atoparon elementos.
-    → Non se puido determinar o substituto (aínda non aparece nas adxudicacións recentes).
+➖ Ningunha listaxe eliminada.
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
