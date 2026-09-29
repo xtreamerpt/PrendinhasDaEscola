@@ -1,20 +1,21 @@
-Informe de vacantes pendentes — 29/09/2026 11:15:42
+Informe de vacantes pendentes — 29/09/2026 11:20:46
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ Ningunha listaxe nova.
+➕ NOVAS listaxes (1):
+--------------------------------------------------
+  + Non se atoparon elementos.
 
 ➖ Listaxes ELIMINADAS (2):
 --------------------------------------------------
-  - 28/09/2026 10:09:35 | 27014665 - CEIP Luís Pimentel (Lugo) | 982828600 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 28/09/2026 | 12/10/2026 | BAIXA POR ENFERMIDADE | 
-    → Adxudicada a: Campos Rodríguez, Julia
-  - 28/09/2026 10:06:27 | 27012504 - CPI San Tomé do Carballo (Taboada) | 982870851 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
-    → Adxudicada a: González Sánchez, Yisel Oanis
+  - 28/09/2026 11:02:10 | 15014829 - CEIP Pedro Barrié de la Maza (Sada) | 881960090 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 28/09/2026 | 12/10/2026 | BAIXA POR ENFERMIDADE | 
+    → Adxudicada a: Basadre González, Xela
+  - 28/09/2026 10:14:46 | 36000247 - CPI de Cova Terreña (Baiona) | 886120001 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
+    → Adxudicada a: Rodríguez Becerra, Gloria
 
 ==================================================
-📋 LISTAXE ACTUAL COMPLETA (2 listaxes)
+📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
 ==================================================
 
-1. 28/09/2026 11:02:10 | 15014829 - CEIP Pedro Barrié de la Maza (Sada) | 881960090 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 28/09/2026 | 12/10/2026 | BAIXA POR ENFERMIDADE | 
-2. 28/09/2026 10:14:46 | 36000247 - CPI de Cova Terreña (Baiona) | 886120001 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
+1. Non se atoparon elementos.
