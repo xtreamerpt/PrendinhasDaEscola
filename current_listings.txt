@@ -1,11 +1,9 @@
-Informe de vacantes pendentes — 29/09/2026 05:55:32
+Informe de vacantes pendentes — 29/09/2026 06:01:11
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 28/09/2026 21:45:40 | 32008847 - CEIP Plurilingüe Amadeo Rodríguez Barroso (Ourense) | 988783044 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 25/09/2026 | 25/11/2026 | BAIXA POR ENFERMIDADE | 
+➕ Ningunha listaxe nova.
 
 ➖ Ningunha listaxe eliminada.
 
