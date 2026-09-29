@@ -1,19 +1,19 @@
-Informe de vacantes pendentes — 29/09/2026 12:10:44
+Informe de vacantes pendentes — 29/09/2026 12:15:46
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
 ➕ NOVAS listaxes (1):
 --------------------------------------------------
-  + 29/09/2026 14:07:07 | 32005305 - CPI Plurilingüe Laureano Prieto (A Gudiña) | 988421140 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 28/09/2026 | 08/11/2026 | Permiso do outro proxenitor por nacemento, acollemento ou adopción dun fillo | Totoría da Unidade de 3º e 4º cursos, imparte outras materias
+  + Non se atoparon elementos.
 
 ➖ Listaxes ELIMINADAS (1):
 --------------------------------------------------
-  - Non se atoparon elementos.
-    → Non se puido determinar o substituto (aínda non aparece nas adxudicacións recentes).
+  - 29/09/2026 14:07:07 | 32005305 - CPI Plurilingüe Laureano Prieto (A Gudiña) | 988421140 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 28/09/2026 | 08/11/2026 | Permiso do outro proxenitor por nacemento, acollemento ou adopción dun fillo | Totoría da Unidade de 3º e 4º cursos, imparte outras materias
+    → Adxudicada a: Madriñán Camba, Jorge
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
 ==================================================
 
-1. 29/09/2026 14:07:07 | 32005305 - CPI Plurilingüe Laureano Prieto (A Gudiña) | 988421140 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 28/09/2026 | 08/11/2026 | Permiso do outro proxenitor por nacemento, acollemento ou adopción dun fillo | Totoría da Unidade de 3º e 4º cursos, imparte outras materias
+1. Non se atoparon elementos.
