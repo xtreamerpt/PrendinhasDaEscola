@@ -1,19 +1,4 @@
 {
-  "34a302328115e6d0": {
-    "text": [
-      "28/09/2026 21:45:40",
-      "32008847 - CEIP Plurilingüe Amadeo Rodríguez Barroso (Ourense)",
-      "988783044",
-      "597032 - Lingua estranxeira: Inglés",
-      "Non bilingüe",
-      "Completa",
-      "25/09/2026",
-      "25/11/2026",
-      "BAIXA POR ENFERMIDADE",
-      ""
-    ],
-    "raw": "28/09/2026 21:45:40 | 32008847 - CEIP Plurilingüe Amadeo Rodríguez Barroso (Ourense) | 988783044 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 25/09/2026 | 25/11/2026 | BAIXA POR ENFERMIDADE | "
-  },
   "a50c24d5456ebe15": {
     "text": [
       "28/09/2026 11:02:10",
@@ -28,21 +13,6 @@
       ""
     ],
     "raw": "28/09/2026 11:02:10 | 15014829 - CEIP Pedro Barrié de la Maza (Sada) | 881960090 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 28/09/2026 | 12/10/2026 | BAIXA POR ENFERMIDADE | "
-  },
-  "e9a2e934200adc55": {
-    "text": [
-      "28/09/2026 10:22:25",
-      "36010204 - CEIP Plurilingüe Párroco Don Camilo (Vigo)",
-      "886120222",
-      "597032 - Lingua estranxeira: Inglés",
-      "Non bilingüe",
-      "Completa",
-      "01/10/2026",
-      "31/08/2027",
-      "INTERINIDADE SEN SUBSTITUIDO",
-      ""
-    ],
-    "raw": "28/09/2026 10:22:25 | 36010204 - CEIP Plurilingüe Párroco Don Camilo (Vigo) | 886120222 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | "
   },
   "901ab4819a191526": {
     "text": [
@@ -88,20 +58,5 @@
       ""
     ],
     "raw": "28/09/2026 10:06:27 | 27012504 - CPI San Tomé do Carballo (Taboada) | 982870851 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | "
-  },
-  "87f2b6ef813113e7": {
-    "text": [
-      "27/09/2026 22:50:42",
-      "36001975 - CEIP Plurilingüe Pío Cabanillas Gallas (Dozón)",
-      "986780472",
-      "597032 - Lingua estranxeira: Inglés",
-      "Non bilingüe",
-      "Completa",
-      "30/09/2026",
-      "15/12/2026",
-      "PERMISO DE MATERNIDADE",
-      ""
-    ],
-    "raw": "27/09/2026 22:50:42 | 36001975 - CEIP Plurilingüe Pío Cabanillas Gallas (Dozón) | 986780472 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 30/09/2026 | 15/12/2026 | PERMISO DE MATERNIDADE | "
   }
 }

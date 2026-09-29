@@ -1,20 +1,24 @@
-Informe de vacantes pendentes — 29/09/2026 11:05:36
+Informe de vacantes pendentes — 29/09/2026 11:10:42
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
 ➕ Ningunha listaxe nova.
 
-➖ Ningunha listaxe eliminada.
+➖ Listaxes ELIMINADAS (3):
+--------------------------------------------------
+  - 27/09/2026 22:50:42 | 36001975 - CEIP Plurilingüe Pío Cabanillas Gallas (Dozón) | 986780472 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 30/09/2026 | 15/12/2026 | PERMISO DE MATERNIDADE | 
+    → Adxudicada a: Rodríguez Feijóo, Laura
+  - 28/09/2026 10:22:25 | 36010204 - CEIP Plurilingüe Párroco Don Camilo (Vigo) | 886120222 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
+    → Adxudicada a: Dafonte Gómez, Nerea
+  - 28/09/2026 21:45:40 | 32008847 - CEIP Plurilingüe Amadeo Rodríguez Barroso (Ourense) | 988783044 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 25/09/2026 | 25/11/2026 | BAIXA POR ENFERMIDADE | 
+    → Adxudicada a: Arcas Mancebo, Ángela
 
 ==================================================
-📋 LISTAXE ACTUAL COMPLETA (7 listaxes)
+📋 LISTAXE ACTUAL COMPLETA (4 listaxes)
 ==================================================
 
-1. 28/09/2026 21:45:40 | 32008847 - CEIP Plurilingüe Amadeo Rodríguez Barroso (Ourense) | 988783044 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 25/09/2026 | 25/11/2026 | BAIXA POR ENFERMIDADE | 
-2. 28/09/2026 11:02:10 | 15014829 - CEIP Pedro Barrié de la Maza (Sada) | 881960090 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 28/09/2026 | 12/10/2026 | BAIXA POR ENFERMIDADE | 
-3. 28/09/2026 10:22:25 | 36010204 - CEIP Plurilingüe Párroco Don Camilo (Vigo) | 886120222 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
-4. 28/09/2026 10:14:46 | 36000247 - CPI de Cova Terreña (Baiona) | 886120001 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
-5. 28/09/2026 10:09:35 | 27014665 - CEIP Luís Pimentel (Lugo) | 982828600 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 28/09/2026 | 12/10/2026 | BAIXA POR ENFERMIDADE | 
-6. 28/09/2026 10:06:27 | 27012504 - CPI San Tomé do Carballo (Taboada) | 982870851 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
-7. 27/09/2026 22:50:42 | 36001975 - CEIP Plurilingüe Pío Cabanillas Gallas (Dozón) | 986780472 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 30/09/2026 | 15/12/2026 | PERMISO DE MATERNIDADE | 
+1. 28/09/2026 11:02:10 | 15014829 - CEIP Pedro Barrié de la Maza (Sada) | 881960090 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 28/09/2026 | 12/10/2026 | BAIXA POR ENFERMIDADE | 
+2. 28/09/2026 10:14:46 | 36000247 - CPI de Cova Terreña (Baiona) | 886120001 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
+3. 28/09/2026 10:09:35 | 27014665 - CEIP Luís Pimentel (Lugo) | 982828600 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 28/09/2026 | 12/10/2026 | BAIXA POR ENFERMIDADE | 
+4. 28/09/2026 10:06:27 | 27012504 - CPI San Tomé do Carballo (Taboada) | 982870851 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
