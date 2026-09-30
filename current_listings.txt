@@ -1,16 +1,11 @@
-Informe de vacantes pendentes — 30/09/2026 12:05:40
+Informe de vacantes pendentes — 30/09/2026 12:10:43
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + Non se atoparon elementos.
+➕ Ningunha listaxe nova.
 
-➖ Listaxes ELIMINADAS (1):
---------------------------------------------------
-  - 30/09/2026 13:54:03 | 32001312 - CEIP de Baños de Molgas (Baños de Molgas) | 988685098 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 30/09/2026 | 07/10/2026 | BAIXA POR ENFERMIDADE | Previsible continuidade de xeito prolongado, pode alongarse todo o curso. Con titoría en Primaria.
-    → Adxudicada a: Diaz Tena, Paula
+➖ Ningunha listaxe eliminada.
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
