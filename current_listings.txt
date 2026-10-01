@@ -1,15 +1,17 @@
-Informe de vacantes pendentes — 01/10/2026 09:20:41
+Informe de vacantes pendentes — 01/10/2026 09:25:35
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
 ➕ Ningunha listaxe nova.
 
-➖ Ningunha listaxe eliminada.
+➖ Listaxes ELIMINADAS (1):
+--------------------------------------------------
+  - 01/10/2026 08:09:14 | 15019372 - CEIP Plurilingüe San Vicenzo (Vimianzo) | 881866532 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 30/09/2026 | 21/12/2026 | PERMISO SINDICAL | 
+    → Adxudicada a: Gil Castro, Mónica
 
 ==================================================
-📋 LISTAXE ACTUAL COMPLETA (2 listaxes)
+📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
 ==================================================
 
-1. 01/10/2026 08:09:14 | 15019372 - CEIP Plurilingüe San Vicenzo (Vimianzo) | 881866532 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 30/09/2026 | 21/12/2026 | PERMISO SINDICAL | 
-2. 30/09/2026 15:10:57 | 36018987 - CRA Antía Cal (Gondomar) | 886110243 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 30/09/2026 | 14/10/2026 | BAIXA POR ENFERMIDADE | 
+1. 30/09/2026 15:10:57 | 36018987 - CRA Antía Cal (Gondomar) | 886110243 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 30/09/2026 | 14/10/2026 | BAIXA POR ENFERMIDADE | 
