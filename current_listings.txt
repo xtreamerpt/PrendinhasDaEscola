@@ -1,14 +1,19 @@
-Informe de vacantes pendentes — 01/10/2026 11:15:44
+Informe de vacantes pendentes — 01/10/2026 11:20:48
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ Ningunha listaxe nova.
+➕ NOVAS listaxes (1):
+--------------------------------------------------
+  + 03/09/2026 13:50:17 | 15001124 - CEIP Francisco Vales Villamarín (Betanzos) | 881880237 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Reducida | 01/09/2026 | 15/06/2027 | REDUCCIÓN XORNADA | Redución de xornada do 99%, polo que a substitución é toda a xornada. Inglés en 4º e 6º Primaria.
 
-➖ Ningunha listaxe eliminada.
+➖ Listaxes ELIMINADAS (1):
+--------------------------------------------------
+  - Non se atoparon elementos.
+    → Non se puido determinar o substituto (aínda non aparece nas adxudicacións recentes).
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
 ==================================================
 
-1. Non se atoparon elementos.
+1. 03/09/2026 13:50:17 | 15001124 - CEIP Francisco Vales Villamarín (Betanzos) | 881880237 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Reducida | 01/09/2026 | 15/06/2027 | REDUCCIÓN XORNADA | Redución de xornada do 99%, polo que a substitución é toda a xornada. Inglés en 4º e 6º Primaria.
