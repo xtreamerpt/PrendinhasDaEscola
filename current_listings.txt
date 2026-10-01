@@ -1,16 +1,11 @@
-Informe de vacantes pendentes — 01/10/2026 09:30:58
+Informe de vacantes pendentes — 01/10/2026 09:35:36
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + Non se atoparon elementos.
+➕ Ningunha listaxe nova.
 
-➖ Listaxes ELIMINADAS (1):
---------------------------------------------------
-  - 30/09/2026 15:10:57 | 36018987 - CRA Antía Cal (Gondomar) | 886110243 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 30/09/2026 | 14/10/2026 | BAIXA POR ENFERMIDADE | 
-    → Adxudicada a: Lage Guede, Ana Isabel
+➖ Ningunha listaxe eliminada.
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
