@@ -1,14 +1,17 @@
-Informe de vacantes pendentes — 02/10/2026 06:01:11
+Informe de vacantes pendentes — 02/10/2026 06:05:37
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ Ningunha listaxe nova.
+➕ NOVAS listaxes (1):
+--------------------------------------------------
+  + 02/10/2026 08:03:03 | 36017697 - CEIP Escultor Acuña (Vigo) | 886120115 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
 
 ➖ Ningunha listaxe eliminada.
 
 ==================================================
-📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
+📋 LISTAXE ACTUAL COMPLETA (2 listaxes)
 ==================================================
 
-1. 01/10/2026 18:32:03 | 36012985 - CEIP Plurilingüe de Sestelo-Baión (Vilanova de Arousa) | 886151898 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 02/10/2026 | 16/10/2026 | BAIXA POR ENFERMIDADE | Mestra especialista de inglés e tamén imparte ARTS de 3º a 5º de EP
+1. 02/10/2026 08:03:03 | 36017697 - CEIP Escultor Acuña (Vigo) | 886120115 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
+2. 01/10/2026 18:32:03 | 36012985 - CEIP Plurilingüe de Sestelo-Baión (Vilanova de Arousa) | 886151898 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 02/10/2026 | 16/10/2026 | BAIXA POR ENFERMIDADE | Mestra especialista de inglés e tamén imparte ARTS de 3º a 5º de EP
