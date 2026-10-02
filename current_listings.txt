@@ -1,15 +1,18 @@
-Informe de vacantes pendentes — 02/10/2026 08:45:43
+Informe de vacantes pendentes — 02/10/2026 08:50:43
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ Ningunha listaxe nova.
+➕ NOVAS listaxes (1):
+--------------------------------------------------
+  + 02/10/2026 10:47:54 | 15025621 - EPAPU Eduardo Pondal (A Coruña) | 881960901 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 30/06/2027 | INTERINIDADE SEN SUBSTITUIDO | Atención domiciliaria. Itinerante
 
 ➖ Ningunha listaxe eliminada.
 
 ==================================================
-📋 LISTAXE ACTUAL COMPLETA (2 listaxes)
+📋 LISTAXE ACTUAL COMPLETA (3 listaxes)
 ==================================================
 
-1. 02/10/2026 08:03:03 | 36017697 - CEIP Escultor Acuña (Vigo) | 886120115 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
-2. 01/10/2026 18:32:03 | 36012985 - CEIP Plurilingüe de Sestelo-Baión (Vilanova de Arousa) | 886151898 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 02/10/2026 | 16/10/2026 | BAIXA POR ENFERMIDADE | Mestra especialista de inglés e tamén imparte ARTS de 3º a 5º de EP
+1. 02/10/2026 10:47:54 | 15025621 - EPAPU Eduardo Pondal (A Coruña) | 881960901 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 30/06/2027 | INTERINIDADE SEN SUBSTITUIDO | Atención domiciliaria. Itinerante
+2. 02/10/2026 08:03:03 | 36017697 - CEIP Escultor Acuña (Vigo) | 886120115 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
+3. 01/10/2026 18:32:03 | 36012985 - CEIP Plurilingüe de Sestelo-Baión (Vilanova de Arousa) | 886151898 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 02/10/2026 | 16/10/2026 | BAIXA POR ENFERMIDADE | Mestra especialista de inglés e tamén imparte ARTS de 3º a 5º de EP
