@@ -1,15 +1,17 @@
-Informe de vacantes pendentes — 02/10/2026 11:05:38
+Informe de vacantes pendentes — 02/10/2026 11:10:45
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
 ➕ Ningunha listaxe nova.
 
-➖ Ningunha listaxe eliminada.
+➖ Listaxes ELIMINADAS (1):
+--------------------------------------------------
+  - 01/10/2026 18:32:03 | 36012985 - CEIP Plurilingüe de Sestelo-Baión (Vilanova de Arousa) | 886151898 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 02/10/2026 | 16/10/2026 | BAIXA POR ENFERMIDADE | Mestra especialista de inglés e tamén imparte ARTS de 3º a 5º de EP
+    → Adxudicada a: Lage Guede, Ana Isabel
 
 ==================================================
-📋 LISTAXE ACTUAL COMPLETA (2 listaxes)
+📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
 ==================================================
 
 1. 02/10/2026 10:47:54 | 15025621 - EPAPU Eduardo Pondal (A Coruña) | 881960901 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 30/06/2027 | INTERINIDADE SEN SUBSTITUIDO | Atención domiciliaria. Itinerante
-2. 01/10/2026 18:32:03 | 36012985 - CEIP Plurilingüe de Sestelo-Baión (Vilanova de Arousa) | 886151898 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 02/10/2026 | 16/10/2026 | BAIXA POR ENFERMIDADE | Mestra especialista de inglés e tamén imparte ARTS de 3º a 5º de EP
