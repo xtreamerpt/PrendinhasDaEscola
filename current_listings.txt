@@ -1,16 +1,11 @@
-Informe de vacantes pendentes — 02/10/2026 05:55:32
+Informe de vacantes pendentes — 02/10/2026 06:01:11
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 01/10/2026 18:32:03 | 36012985 - CEIP Plurilingüe de Sestelo-Baión (Vilanova de Arousa) | 886151898 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 02/10/2026 | 16/10/2026 | BAIXA POR ENFERMIDADE | Mestra especialista de inglés e tamén imparte ARTS de 3º a 5º de EP
+➕ Ningunha listaxe nova.
 
-➖ Listaxes ELIMINADAS (1):
---------------------------------------------------
-  - Non se atoparon elementos.
-    → Non se puido determinar o substituto (aínda non aparece nas adxudicacións recentes).
+➖ Ningunha listaxe eliminada.
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
