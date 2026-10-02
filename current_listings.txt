@@ -1,14 +1,11 @@
-Informe de vacantes pendentes — 02/10/2026 11:10:45
+Informe de vacantes pendentes — 02/10/2026 11:16:20
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
 ➕ Ningunha listaxe nova.
 
-➖ Listaxes ELIMINADAS (1):
---------------------------------------------------
-  - 01/10/2026 18:32:03 | 36012985 - CEIP Plurilingüe de Sestelo-Baión (Vilanova de Arousa) | 886151898 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 02/10/2026 | 16/10/2026 | BAIXA POR ENFERMIDADE | Mestra especialista de inglés e tamén imparte ARTS de 3º a 5º de EP
-    → Adxudicada a: Lage Guede, Ana Isabel
+➖ Ningunha listaxe eliminada.
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
