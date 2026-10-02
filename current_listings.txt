@@ -1,16 +1,11 @@
-Informe de vacantes pendentes — 02/10/2026 11:45:49
+Informe de vacantes pendentes — 02/10/2026 11:50:46
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + Non se atoparon elementos.
+➕ Ningunha listaxe nova.
 
-➖ Listaxes ELIMINADAS (1):
---------------------------------------------------
-  - 02/10/2026 10:47:54 | 15025621 - EPAPU Eduardo Pondal (A Coruña) | 881960901 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 30/06/2027 | INTERINIDADE SEN SUBSTITUIDO | Atención domiciliaria. Itinerante
-    → Adxudicada a: García Pedrosa, Rebeca
+➖ Ningunha listaxe eliminada.
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
