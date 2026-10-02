@@ -1,14 +1,11 @@
-Informe de vacantes pendentes — 02/10/2026 10:35:38
+Informe de vacantes pendentes — 02/10/2026 10:40:43
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
 ➕ Ningunha listaxe nova.
 
-➖ Listaxes ELIMINADAS (1):
---------------------------------------------------
-  - 02/10/2026 12:24:53 | 36017697 - CEIP Escultor Acuña (Vigo) | 886120115 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 26/10/2026 | BAIXA POR ENFERMIDADE | 
-    → Adxudicada a: Bacelo Fernández, Lorena
+➖ Ningunha listaxe eliminada.
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (2 listaxes)
