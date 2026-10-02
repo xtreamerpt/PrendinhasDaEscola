@@ -1,11 +1,9 @@
-Informe de vacantes pendentes — 02/10/2026 06:05:37
+Informe de vacantes pendentes — 02/10/2026 06:10:45
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 02/10/2026 08:03:03 | 36017697 - CEIP Escultor Acuña (Vigo) | 886120115 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
+➕ Ningunha listaxe nova.
 
 ➖ Ningunha listaxe eliminada.
 
