@@ -1,21 +1,21 @@
-Informe de vacantes pendentes — 02/10/2026 10:25:37
+Informe de vacantes pendentes — 02/10/2026 10:30:58
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
 ➕ NOVAS listaxes (1):
 --------------------------------------------------
-  + 02/10/2026 12:24:53 | 36017697 - CEIP Escultor Acuña (Vigo) | 886120115 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 31/08/2027 | BAIXA POR ENFERMIDADE | 
+  + 02/10/2026 12:24:53 | 36017697 - CEIP Escultor Acuña (Vigo) | 886120115 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 26/10/2026 | BAIXA POR ENFERMIDADE | 
 
 ➖ Listaxes ELIMINADAS (1):
 --------------------------------------------------
-  - 02/10/2026 08:03:03 | 36017697 - CEIP Escultor Acuña (Vigo) | 886120115 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 31/08/2027 | INTERINIDADE SEN SUBSTITUIDO | 
+  - 02/10/2026 12:24:53 | 36017697 - CEIP Escultor Acuña (Vigo) | 886120115 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 31/08/2027 | BAIXA POR ENFERMIDADE | 
     → Non se puido determinar o substituto (aínda non aparece nas adxudicacións recentes).
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (3 listaxes)
 ==================================================
 
-1. 02/10/2026 12:24:53 | 36017697 - CEIP Escultor Acuña (Vigo) | 886120115 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 31/08/2027 | BAIXA POR ENFERMIDADE | 
+1. 02/10/2026 12:24:53 | 36017697 - CEIP Escultor Acuña (Vigo) | 886120115 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 26/10/2026 | BAIXA POR ENFERMIDADE | 
 2. 02/10/2026 10:47:54 | 15025621 - EPAPU Eduardo Pondal (A Coruña) | 881960901 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 30/06/2027 | INTERINIDADE SEN SUBSTITUIDO | Atención domiciliaria. Itinerante
 3. 01/10/2026 18:32:03 | 36012985 - CEIP Plurilingüe de Sestelo-Baión (Vilanova de Arousa) | 886151898 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 02/10/2026 | 16/10/2026 | BAIXA POR ENFERMIDADE | Mestra especialista de inglés e tamén imparte ARTS de 3º a 5º de EP
