@@ -1,17 +1,11 @@
-Informe de vacantes pendentes — 05/10/2026 05:50:46
+Informe de vacantes pendentes — 05/10/2026 05:55:31
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (2):
---------------------------------------------------
-  + 02/10/2026 15:56:31 | 36015627 - CEIP Plurilingüe García Barbón (Vigo) | 886111087 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 02/10/2026 | 16/11/2026 | BAIXA POR ENFERMIDADE | Imparte inglés en 5º y 6º de primaria edixgal
-  + 02/10/2026 22:59:36 | 15032716 - CEIP de Arteixo (Arteixo) | 881960193 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 15/10/2026 | BAIXA POR ENFERMIDADE | Posiblemente se prolongue.
+➕ Ningunha listaxe nova.
 
-➖ Listaxes ELIMINADAS (1):
---------------------------------------------------
-  - Non se atoparon elementos.
-    → Non se puido determinar o substituto (aínda non aparece nas adxudicacións recentes).
+➖ Ningunha listaxe eliminada.
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (2 listaxes)
