@@ -1,8 +1,32 @@
 {
-  "738b7e2595d45a3a": {
+  "59d7e6eca2d561cd": {
     "text": [
-      "Non se atoparon elementos."
+      "02/10/2026 22:59:36",
+      "15032716 - CEIP de Arteixo (Arteixo)",
+      "881960193",
+      "597032 - Lingua estranxeira: Inglés",
+      "Non bilingüe",
+      "Completa",
+      "01/10/2026",
+      "15/10/2026",
+      "BAIXA POR ENFERMIDADE",
+      "Posiblemente se prolongue."
     ],
-    "raw": "Non se atoparon elementos."
+    "raw": "02/10/2026 22:59:36 | 15032716 - CEIP de Arteixo (Arteixo) | 881960193 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 15/10/2026 | BAIXA POR ENFERMIDADE | Posiblemente se prolongue."
+  },
+  "57e63f4129c0c897": {
+    "text": [
+      "02/10/2026 15:56:31",
+      "36015627 - CEIP Plurilingüe García Barbón (Vigo)",
+      "886111087",
+      "597032 - Lingua estranxeira: Inglés",
+      "Non bilingüe",
+      "Completa",
+      "02/10/2026",
+      "16/11/2026",
+      "BAIXA POR ENFERMIDADE",
+      "Imparte inglés en 5º y 6º de primaria edixgal"
+    ],
+    "raw": "02/10/2026 15:56:31 | 36015627 - CEIP Plurilingüe García Barbón (Vigo) | 886111087 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 02/10/2026 | 16/11/2026 | BAIXA POR ENFERMIDADE | Imparte inglés en 5º y 6º de primaria edixgal"
   }
 }
