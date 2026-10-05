@@ -1,11 +1,9 @@
-Informe de vacantes pendentes — 05/10/2026 13:10:47
+Informe de vacantes pendentes — 05/10/2026 13:15:43
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 05/10/2026 14:36:16 | 36001033 - CEIP Plurilingüe de San Roque de Darbo (Cangas de Morrazo) | 886120954 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 19/10/2026 | BAIXA POR ENFERMIDADE | 
+➕ Ningunha listaxe nova.
 
 ➖ Ningunha listaxe eliminada.
 
