@@ -1,15 +1,18 @@
-Informe de vacantes pendentes — 05/10/2026 10:35:37
+Informe de vacantes pendentes — 05/10/2026 10:40:45
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ Ningunha listaxe nova.
+➕ NOVAS listaxes (1):
+--------------------------------------------------
+  + 05/10/2026 11:42:08 | 15002578 - CEIP Fogar (Carballo) | 981700294 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 19/10/2026 | BAIXA POR ENFERMIDADE | 
 
 ➖ Ningunha listaxe eliminada.
 
 ==================================================
-📋 LISTAXE ACTUAL COMPLETA (2 listaxes)
+📋 LISTAXE ACTUAL COMPLETA (3 listaxes)
 ==================================================
 
-1. 02/10/2026 22:59:36 | 15032716 - CEIP de Arteixo (Arteixo) | 881960193 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 15/10/2026 | BAIXA POR ENFERMIDADE | Posiblemente se prolongue.
-2. 02/10/2026 15:56:31 | 36015627 - CEIP Plurilingüe García Barbón (Vigo) | 886111087 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 02/10/2026 | 16/11/2026 | BAIXA POR ENFERMIDADE | Imparte inglés en 5º y 6º de primaria edixgal
+1. 05/10/2026 11:42:08 | 15002578 - CEIP Fogar (Carballo) | 981700294 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 19/10/2026 | BAIXA POR ENFERMIDADE | 
+2. 02/10/2026 22:59:36 | 15032716 - CEIP de Arteixo (Arteixo) | 881960193 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 15/10/2026 | BAIXA POR ENFERMIDADE | Posiblemente se prolongue.
+3. 02/10/2026 15:56:31 | 36015627 - CEIP Plurilingüe García Barbón (Vigo) | 886111087 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 02/10/2026 | 16/11/2026 | BAIXA POR ENFERMIDADE | Imparte inglés en 5º y 6º de primaria edixgal
