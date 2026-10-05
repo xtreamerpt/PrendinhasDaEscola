@@ -1,11 +1,9 @@
-Informe de vacantes pendentes — 05/10/2026 10:40:45
+Informe de vacantes pendentes — 05/10/2026 10:45:43
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 05/10/2026 11:42:08 | 15002578 - CEIP Fogar (Carballo) | 981700294 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 19/10/2026 | BAIXA POR ENFERMIDADE | 
+➕ Ningunha listaxe nova.
 
 ➖ Ningunha listaxe eliminada.
 
