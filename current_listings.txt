@@ -1,18 +1,22 @@
-Informe de vacantes pendentes — 06/10/2026 09:35:36
+Informe de vacantes pendentes — 06/10/2026 09:40:45
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
 ➕ Ningunha listaxe nova.
 
-➖ Ningunha listaxe eliminada.
+➖ Listaxes ELIMINADAS (3):
+--------------------------------------------------
+  - 02/10/2026 22:59:36 | 15032716 - CEIP de Arteixo (Arteixo) | 881960193 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 15/10/2026 | BAIXA POR ENFERMIDADE | Posiblemente se prolongue.
+    → Adxudicada a: Santiso Fontela, Estefanía
+  - 06/10/2026 10:37:06 | 32000058 - CEIP Padre Feijoo (Allariz) | 988440825 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 06/10/2026 | 20/10/2026 | BAIXA POR ENFERMIDADE | 
+    → Adxudicada a: Vispo Blanco, María José
+  - 02/10/2026 15:56:31 | 36015627 - CEIP Plurilingüe García Barbón (Vigo) | 886111087 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 02/10/2026 | 16/11/2026 | BAIXA POR ENFERMIDADE | Imparte inglés en 5º y 6º de primaria edixgal
+    → Adxudicada a: Domínguez Pérez, Paula
 
 ==================================================
-📋 LISTAXE ACTUAL COMPLETA (5 listaxes)
+📋 LISTAXE ACTUAL COMPLETA (2 listaxes)
 ==================================================
 
-1. 06/10/2026 10:37:06 | 32000058 - CEIP Padre Feijoo (Allariz) | 988440825 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 06/10/2026 | 20/10/2026 | BAIXA POR ENFERMIDADE | 
-2. 05/10/2026 14:36:16 | 36001033 - CEIP Plurilingüe de San Roque de Darbo (Cangas de Morrazo) | 886120954 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 19/10/2026 | BAIXA POR ENFERMIDADE | 
-3. 05/10/2026 11:42:08 | 15002578 - CEIP Fogar (Carballo) | 981700294 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 19/10/2026 | BAIXA POR ENFERMIDADE | 
-4. 02/10/2026 22:59:36 | 15032716 - CEIP de Arteixo (Arteixo) | 881960193 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 01/10/2026 | 15/10/2026 | BAIXA POR ENFERMIDADE | Posiblemente se prolongue.
-5. 02/10/2026 15:56:31 | 36015627 - CEIP Plurilingüe García Barbón (Vigo) | 886111087 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 02/10/2026 | 16/11/2026 | BAIXA POR ENFERMIDADE | Imparte inglés en 5º y 6º de primaria edixgal
+1. 05/10/2026 14:36:16 | 36001033 - CEIP Plurilingüe de San Roque de Darbo (Cangas de Morrazo) | 886120954 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 19/10/2026 | BAIXA POR ENFERMIDADE | 
+2. 05/10/2026 11:42:08 | 15002578 - CEIP Fogar (Carballo) | 981700294 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 19/10/2026 | BAIXA POR ENFERMIDADE | 
