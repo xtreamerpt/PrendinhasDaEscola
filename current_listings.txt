@@ -1,19 +1,19 @@
-Informe de vacantes pendentes — 09/10/2026 11:10:42
+Informe de vacantes pendentes — 09/10/2026 11:15:37
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
 ➕ NOVAS listaxes (1):
 --------------------------------------------------
-  + 09/10/2026 13:03:55 | 15010575 - CEIP Plurilingüe O Coto (Negreira) | 881866821 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 19/10/2026 | BAIXA POR ENFERMIDADE | Con posibilidade de prolongarse
+  + Non se atoparon elementos.
 
 ➖ Listaxes ELIMINADAS (1):
 --------------------------------------------------
-  - Non se atoparon elementos.
-    → Non se puido determinar o substituto (aínda non aparece nas adxudicacións recentes).
+  - 09/10/2026 13:03:55 | 15010575 - CEIP Plurilingüe O Coto (Negreira) | 881866821 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 19/10/2026 | BAIXA POR ENFERMIDADE | Con posibilidade de prolongarse
+    → Adxudicada a: Naveiro Fraga, Jose Eduardo
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
 ==================================================
 
-1. 09/10/2026 13:03:55 | 15010575 - CEIP Plurilingüe O Coto (Negreira) | 881866821 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 19/10/2026 | BAIXA POR ENFERMIDADE | Con posibilidade de prolongarse
+1. Non se atoparon elementos.
