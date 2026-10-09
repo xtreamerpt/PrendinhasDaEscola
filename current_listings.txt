@@ -1,14 +1,19 @@
-Informe de vacantes pendentes — 09/10/2026 08:45:39
+Informe de vacantes pendentes — 09/10/2026 08:50:36
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ Ningunha listaxe nova.
+➕ NOVAS listaxes (1):
+--------------------------------------------------
+  + Non se atoparon elementos.
 
-➖ Ningunha listaxe eliminada.
+➖ Listaxes ELIMINADAS (1):
+--------------------------------------------------
+  - 08/10/2026 21:48:06 | 36018185 - CEIP Plurilingüe Pintor Laxeiro (Vigo) | 886120137 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 09/10/2026 | 24/10/2026 | BAIXA POR ENFERMIDADE | Posible prórroga
+    → Adxudicada a: Lorenzo Lorenzo, María Goretti
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
 ==================================================
 
-1. 08/10/2026 21:48:06 | 36018185 - CEIP Plurilingüe Pintor Laxeiro (Vigo) | 886120137 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 09/10/2026 | 24/10/2026 | BAIXA POR ENFERMIDADE | Posible prórroga
+1. Non se atoparon elementos.
