@@ -1,14 +1,19 @@
-Informe de vacantes pendentes — 09/10/2026 11:05:32
+Informe de vacantes pendentes — 09/10/2026 11:10:42
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ Ningunha listaxe nova.
+➕ NOVAS listaxes (1):
+--------------------------------------------------
+  + 09/10/2026 13:03:55 | 15010575 - CEIP Plurilingüe O Coto (Negreira) | 881866821 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 19/10/2026 | BAIXA POR ENFERMIDADE | Con posibilidade de prolongarse
 
-➖ Ningunha listaxe eliminada.
+➖ Listaxes ELIMINADAS (1):
+--------------------------------------------------
+  - Non se atoparon elementos.
+    → Non se puido determinar o substituto (aínda non aparece nas adxudicacións recentes).
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
 ==================================================
 
-1. Non se atoparon elementos.
+1. 09/10/2026 13:03:55 | 15010575 - CEIP Plurilingüe O Coto (Negreira) | 881866821 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 05/10/2026 | 19/10/2026 | BAIXA POR ENFERMIDADE | Con posibilidade de prolongarse
