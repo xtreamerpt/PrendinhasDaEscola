@@ -1,16 +1,11 @@
-Informe de vacantes pendentes — 09/10/2026 05:55:28
+Informe de vacantes pendentes — 09/10/2026 06:01:01
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 08/10/2026 21:48:06 | 36018185 - CEIP Plurilingüe Pintor Laxeiro (Vigo) | 886120137 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 09/10/2026 | 24/10/2026 | BAIXA POR ENFERMIDADE | Posible prórroga
+➕ Ningunha listaxe nova.
 
-➖ Listaxes ELIMINADAS (1):
---------------------------------------------------
-  - Non se atoparon elementos.
-    → Non se puido determinar o substituto (aínda non aparece nas adxudicacións recentes).
+➖ Ningunha listaxe eliminada.
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
