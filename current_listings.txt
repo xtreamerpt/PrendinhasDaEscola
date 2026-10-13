@@ -1,14 +1,19 @@
-Informe de vacantes pendentes — 13/10/2026 12:10:39
+Informe de vacantes pendentes — 13/10/2026 12:15:39
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ Ningunha listaxe nova.
+➕ NOVAS listaxes (1):
+--------------------------------------------------
+  + Non se atoparon elementos.
 
-➖ Ningunha listaxe eliminada.
+➖ Listaxes ELIMINADAS (1):
+--------------------------------------------------
+  - 13/10/2026 13:54:20 | 27002997 - CPI Plurilingüe Virxe do Monte (Cospeito) | 982870262 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 13/10/2026 | 28/10/2026 | BAIXA POR ENFERMIDADE | 
+    → Adxudicada a: Bello Hermida, Laura
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (1 listaxes)
 ==================================================
 
-1. 13/10/2026 13:54:20 | 27002997 - CPI Plurilingüe Virxe do Monte (Cospeito) | 982870262 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 13/10/2026 | 28/10/2026 | BAIXA POR ENFERMIDADE | 
+1. Non se atoparon elementos.
