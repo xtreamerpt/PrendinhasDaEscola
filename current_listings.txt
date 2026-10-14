@@ -1,11 +1,9 @@
-Informe de vacantes pendentes — 14/10/2026 10:30:52
+Informe de vacantes pendentes — 14/10/2026 10:35:32
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 14/10/2026 12:27:16 | 15026960 - CEIP Plurilingüe de Ponzos (Ferrol) | 881938470 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 16/10/2026 | 30/10/2026 | PERMISO POR MATRIMONIO | 
+➕ Ningunha listaxe nova.
 
 ➖ Ningunha listaxe eliminada.
 
