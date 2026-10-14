@@ -1,16 +1,11 @@
-Informe de vacantes pendentes — 14/10/2026 11:10:42
+Informe de vacantes pendentes — 14/10/2026 11:15:37
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 14/10/2026 09:12:47 | 36018100 - CEIP As Bizocas (O Grove) | 886151972 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 19/10/2026 | 30/10/2026 | PROGRAMA INTEGRAL DE APRENDIZAXE DE LÍNGUAS ESTRANXEIRAS  (PIALE) | 
+➕ Ningunha listaxe nova.
 
-➖ Listaxes ELIMINADAS (1):
---------------------------------------------------
-  - 14/10/2026 09:12:47 | 36018100 - CEIP As Bizocas (O Grove) | 886151972 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 19/10/2026 | 31/10/2026 | PROGRAMA INTEGRAL DE APRENDIZAXE DE LÍNGUAS ESTRANXEIRAS  (PIALE) | 
-    → Non se puido determinar o substituto (aínda non aparece nas adxudicacións recentes).
+➖ Ningunha listaxe eliminada.
 
 ==================================================
 📋 LISTAXE ACTUAL COMPLETA (8 listaxes)
