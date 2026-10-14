@@ -1,21 +1,19 @@
-Informe de vacantes pendentes — 14/10/2026 06:55:31
+Informe de vacantes pendentes — 14/10/2026 07:01:04
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (3):
+➕ Ningunha listaxe nova.
+
+➖ Listaxes ELIMINADAS (1):
 --------------------------------------------------
-  + 14/10/2026 08:50:52 | 32003771 - CEIP Plurilingüe Curros Enríquez (Celanova) | 988788068 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 19/10/2026 | 31/10/2026 | PROGRAMA INTEGRAL DE APRENDIZAXE DE LÍNGUAS ESTRANXEIRAS  (PIALE) | 
-  + 14/10/2026 08:54:26 | 36015652 - CEIP O Piñeiriño (Vilagarcía de Arousa) | 886159822 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 19/10/2026 | 31/08/2027 | PROGRAMA INTEGRAL DE APRENDIZAXE DE LÍNGUAS ESTRANXEIRAS  (PIALE) | 
-  + 14/10/2026 08:52:28 | 36006390 - CEIP Manuel Vidal Portela (Pontevedra) | 886151937 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 19/10/2026 | 31/10/2026 | PROGRAMA INTEGRAL DE APRENDIZAXE DE LÍNGUAS ESTRANXEIRAS  (PIALE) | 
-
-➖ Ningunha listaxe eliminada.
+  - 14/10/2026 08:54:26 | 36015652 - CEIP O Piñeiriño (Vilagarcía de Arousa) | 886159822 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 19/10/2026 | 31/08/2027 | PROGRAMA INTEGRAL DE APRENDIZAXE DE LÍNGUAS ESTRANXEIRAS  (PIALE) | 
+    → Non se puido determinar o substituto (aínda non aparece nas adxudicacións recentes).
 
 ==================================================
-📋 LISTAXE ACTUAL COMPLETA (4 listaxes)
+📋 LISTAXE ACTUAL COMPLETA (3 listaxes)
 ==================================================
 
-1. 14/10/2026 08:54:26 | 36015652 - CEIP O Piñeiriño (Vilagarcía de Arousa) | 886159822 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 19/10/2026 | 31/08/2027 | PROGRAMA INTEGRAL DE APRENDIZAXE DE LÍNGUAS ESTRANXEIRAS  (PIALE) | 
-2. 14/10/2026 08:52:28 | 36006390 - CEIP Manuel Vidal Portela (Pontevedra) | 886151937 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 19/10/2026 | 31/10/2026 | PROGRAMA INTEGRAL DE APRENDIZAXE DE LÍNGUAS ESTRANXEIRAS  (PIALE) | 
-3. 14/10/2026 08:50:52 | 32003771 - CEIP Plurilingüe Curros Enríquez (Celanova) | 988788068 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 19/10/2026 | 31/10/2026 | PROGRAMA INTEGRAL DE APRENDIZAXE DE LÍNGUAS ESTRANXEIRAS  (PIALE) | 
-4. 13/10/2026 19:35:58 | 36004691 - CEIP de Coirón-Dena (Meaño) | 886151374 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 13/10/2026 | 10/11/2026 | BAIXA POR ENFERMIDADE | 
+1. 14/10/2026 08:52:28 | 36006390 - CEIP Manuel Vidal Portela (Pontevedra) | 886151937 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 19/10/2026 | 31/10/2026 | PROGRAMA INTEGRAL DE APRENDIZAXE DE LÍNGUAS ESTRANXEIRAS  (PIALE) | 
+2. 14/10/2026 08:50:52 | 32003771 - CEIP Plurilingüe Curros Enríquez (Celanova) | 988788068 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 19/10/2026 | 31/10/2026 | PROGRAMA INTEGRAL DE APRENDIZAXE DE LÍNGUAS ESTRANXEIRAS  (PIALE) | 
+3. 13/10/2026 19:35:58 | 36004691 - CEIP de Coirón-Dena (Meaño) | 886151374 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 13/10/2026 | 10/11/2026 | BAIXA POR ENFERMIDADE | 
