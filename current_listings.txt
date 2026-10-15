@@ -1,11 +1,9 @@
-Informe de vacantes pendentes — 15/10/2026 10:35:31
+Informe de vacantes pendentes — 15/10/2026 10:40:40
 Filtro: corpo=597 | especialidade=32
 
 Resumo dos cambios dende a última consulta:
 
-➕ NOVAS listaxes (1):
---------------------------------------------------
-  + 15/10/2026 12:21:16 | 36015251 - CEIP Plurilingüe Frián-Teis (Vigo) | 886120161 | 597032 - Lingua estranxeira: Inglés | Non bilingüe | Completa | 14/10/2026 | 28/10/2026 | BAIXA POR ENFERMIDADE | 
+➕ Ningunha listaxe nova.
 
 ➖ Ningunha listaxe eliminada.
 
